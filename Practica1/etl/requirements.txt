@@ -1,0 +1,6 @@
+pandas==2.2.2
+numpy==1.26.4
+pyodbc==5.1.0
+sqlalchemy==2.0.30
+python-dotenv==1.0.1
+tqdm==4.66.4

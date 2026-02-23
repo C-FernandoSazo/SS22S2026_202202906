@@ -1,0 +1,2 @@
+CREATE DATABASE SS22_Practica1;
+GO
