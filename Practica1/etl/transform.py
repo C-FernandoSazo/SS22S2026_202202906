@@ -1,5 +1,19 @@
 import pandas as pd
 
+gender_map = {
+    "M": "M",
+    "MASCULINO": "M",
+    "MALE": "M",
+    "F": "F",
+    "FEMENINO": "F",
+    "FEMALE": "F",
+    "X": "X",
+    "NOBINARIO": "X",
+    "NO_BINARIO": "X",
+    "NONBINARY": "X",
+    "NB": "X",
+}
+
 def _parse_dt(series):
     # Formato primario: dd/mm/yyyy hh:mm
     result = pd.to_datetime(series, dayfirst=True, errors="coerce")
@@ -37,6 +51,7 @@ def transform(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
     df1["departure_datetime"] = _parse_dt(df1.get("departure_datetime"))
     df1["arrival_datetime"]   = _parse_dt(df1.get("arrival_datetime"))
     df2["booking_datetime"]   = _parse_dt(df2.get("booking_datetime"))
+    df2["passenger_gender"] = df2["passenger_gender"].map(gender_map).fillna("U")
 
     # --- Numéricos ---
     if "ticket_price" in df2.columns:
