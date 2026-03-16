@@ -1,6 +1,10 @@
 -- 1 Conteo de hechos
-SELECT COUNT(*) AS fact_rows
+SELECT *
 FROM dbo.FactTicketFlight;
+
+SELECT * FROM dbo.DimDateTime;
+
+SELECT * FROM dbo.DimPassenger;
 
 -- 2 Conteo por dimensión
 SELECT 'DimPassenger' AS dim, COUNT(*) total FROM dbo.DimPassenger
