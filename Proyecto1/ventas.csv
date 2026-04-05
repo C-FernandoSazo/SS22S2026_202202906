@@ -1,0 +1,1001 @@
+Fecha,CodCliente,NombreCliente,TipoCliente,CodVendedor,NombreVendedor,CodProducto,NombreProducto,MarcaProducto,Categoria,CodSucursal,NombreSucursal,Region,Departamento,Unidades,PrecioUnitario
+13/07/2021,C0100,Iván Gonzalo Barreto Ordóñez,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,294,1104.71
+21/03/2022,C0100,Iván Gonzalo Barreto Ordóñez,Mayorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,31,398.48
+01/11/2020,C0100,Iván Gonzalo Barreto Ordóñez,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,277,183.63
+17/07/2023,C0100,Iván Gonzalo Barreto Ordóñez,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,365,647.15
+23/12/2018,C0100,Iván Gonzalo Barreto Ordóñez,Mayorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,446,944.95
+30/07/2019,C0100,Iván Gonzalo Barreto Ordóñez,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,428,1282.17
+16/10/2019,C0099,Isabela Laureano,Mayorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,328,1339.82
+11/04/2020,C0099,Isabela Laureano,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,84,591.93
+Z3/08/2018,C0099,Isabela Laureano,Mayorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,130,322.95
+09/06/2020,C0099,Isabela Laureano,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,103,150.71
+06/1Z/2020,C0099,Isabela Laureano,Mayorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,436,1004.56
+24/03/2021,C0099,Isabela Laureano,Mayorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,55,602.04
+24/06/2023,C0099,Isabela Laureano,Mayorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,381,1171.53
+20/06/2020,C0099,Isabela Laureano,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,429,407.81
+24/02/2021,C0099,Isabela Laureano,Mayorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,80,813.85
+02/11/2024,C0099,Isabela Laureano,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,380,956.66
+24/11/2018,C0098,Pedro Linares,Mayorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,33,194.31
+29/08/2018,C0098,Pedro Linares,Mayorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,104,450.94
+27/01/2021,C0098,Pedro Linares,Mayorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,338,837.37
+24/08/2019,C0098,Pedro Linares,Mayorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,296,756.32
+25/08/2023,C0098,Pedro Linares,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,261,1068.06
+11/11/2018,C0098,Pedro Linares,Mayorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,430,212.98
+07/07/2021,C0098,Pedro Linares,Mayorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,474,1139.66
+09/03/2019,C0098,Pedro Linares,Mayorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,194,1164.27
+05/12/2019,C0098,Pedro Linares,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,121,572.3
+25/05/2020,C0098,Pedro Linares,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,116,1290.7
+14/03/2023,C0098,Pedro Linares,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,164,1188.17
+25/01/2021,C0097,Ing. Liliana Sevilla,Mayorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,243,405.0
+14/12/2019,C0097,Ing. Liliana Sevilla,Mayorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,184,454.25
+12/03/2021,C0097,Ing. Liliana Sevilla,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,460,412.03
+08/09/2019,C0097,Ing. Liliana Sevilla,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,301,1353.24
+25/03/2021,C0097,Ing. Liliana Sevilla,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,187,1449.92
+25/01/2021,C0097,Ing. Liliana Sevilla,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,68,177.95
+01/11/2024,C0097,Ing. Liliana Sevilla,Mayorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,374,1093.53
+10/03/2021,C0097,Ing. Liliana Sevilla,Mayorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,162,1131.49
+29/09/2022,C0097,Ing. Liliana Sevilla,Mayorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,101,88.74
+16/10/2020,C0097,Ing. Liliana Sevilla,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,412,1108.24
+21/02/2023,C0097,Ing. Liliana Sevilla,Mayorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,492,983.23
+02/08/2018,C0097,Ing. Liliana Sevilla,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,337,519.65
+10/12/2020,C0096,Ing. Lucía Bonilla,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,448,1059.16
+02/02/2024,C0096,Ing. Lucía Bonilla,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,479,855.68
+03/08/2018,C0096,Ing. Lucía Bonilla,Mayorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,314,1246.94
+03/06/2022,C0096,Ing. Lucía Bonilla,Mayorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,309,1280.69
+10/04/2022,C0096,Ing. Lucía Bonilla,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,370,1224.38
+22/10/2018,C0096,Ing. Lucía Bonilla,Mayorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,486,726.75
+08/06/2022,C0096,Ing. Lucía Bonilla,Mayorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,99,1061.42
+01/01/2020,C0096,Ing. Lucía Bonilla,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,342,445.51
+14/08/2023,C0096,Ing. Lucía Bonilla,Mayorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,61,661.69
+25/01/2021,C0096,Ing. Lucía Bonilla,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,310,607.03
+27/07/2018,C0096,Ing. Lucía Bonilla,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,205,945.21
+08/08/2024,C0095,Eloy Bianca Anaya,Mayorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,13,1083.81
+10/01/2018,C0095,Eloy Bianca Anaya,Mayorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,165,1257.09
+17/07/2020,C0095,Eloy Bianca Anaya,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,174,312.39
+16/10/2022,C0095,Eloy Bianca Anaya,Mayorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,391,92.37
+28/07/2020,C0095,Eloy Bianca Anaya,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,205,1112.72
+07/07/2020,C0095,Eloy Bianca Anaya,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,66,1282.2
+10/04/2024,C0095,Eloy Bianca Anaya,Mayorista,V0009,Reynaldo Mejía Guevara,AC00003,QUESO CAMEMBERT,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,130,555.97
+25/12/2021,C0095,Eloy Bianca Anaya,Mayorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,45,879.43
+05/02/2018,C0094,Eva Pelayo,Mayorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,475,826.06
+09/05/2021,C0094,Eva Pelayo,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,268,1336.52
+06/09/2023,C0094,Eva Pelayo,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,358,859.39
+30/06/2019,C0094,Eva Pelayo,Mayorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,271,533.12
+28/10/2020,C0094,Eva Pelayo,Mayorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,118,193.88
+04/02/2019,C0094,Eva Pelayo,Mayorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,224,357.99
+08/08/2024,C0094,Eva Pelayo,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,387,1460.38
+19/09/2020,C0094,Eva Pelayo,Mayorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,191,71.86
+22/12/2020,C0094,Eva Pelayo,Mayorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,32,323.48
+21/09/2018,C0093,Octavio Víctor Olivo Delgadillo,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,189,128.65
+19/03/2019,C0093,Octavio Víctor Olivo Delgadillo,Mayorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,311,384.72
+09/03/2019,C0093,Octavio Víctor Olivo Delgadillo,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,141,138.2
+07/04/2022,C0093,Octavio Víctor Olivo Delgadillo,Mayorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,252,843.24
+12/04/2024,C0093,Octavio Víctor Olivo Delgadillo,Mayorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,173,1392.25
+29/01/2024,C0093,Octavio Víctor Olivo Delgadillo,Mayorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,1,388.85
+03/12/2019,C0093,Octavio Víctor Olivo Delgadillo,Mayorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,353,1440.2
+19/09/2021,C0092,Georgina Hidalgo Gracia,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,37,863.45
+06/08/2023,C0092,Georgina Hidalgo Gracia,Mayorista,V0007,Eugenio Correa,AC00006,VINO ESPUMOSO ROTHBERG,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,38,156.49
+13/01/2019,C0092,Georgina Hidalgo Gracia,Mayorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,54,501.85
+07/05/2018,C0092,Georgina Hidalgo Gracia,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,66,754.42
+11/03/2021,C0092,Georgina Hidalgo Gracia,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,94,-75.72
+02/01/2018,C0092,Georgina Hidalgo Gracia,Mayorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,34,1343.25
+11/05/2018,C0091,Esparta Villa,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,43,502.25
+25/07/2018,C0091,Esparta Villa,Mayorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,388,1010.34
+17/12/2022,C0091,Esparta Villa,Mayorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,85,1247.18
+09/02/2021,C0091,Esparta Villa,Mayorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,357,1447.9
+22/09/2022,C0091,Esparta Villa,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,352,363.77
+29/08/2019,C0091,Esparta Villa,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,472,170.99
+05/06/2024,C0091,Esparta Villa,Mayorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,223,87.09
+29/03/2019,C0091,Esparta Villa,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,152,1038.45
+24/07/2019,C0090,Lic. Serafín de Anda,Mayorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,261,644.83
+15/10/2021,C0090,Lic. Serafín de Anda,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,250,141.02
+25/09/2020,C0090,Lic. Serafín de Anda,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Ninguna,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,440,671.97
+02/02/2018,C0090,Lic. Serafín de Anda,Mayorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,68,495.28
+19/02/2021,C0090,Lic. Serafín de Anda,Mayorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,311,681.25
+31/05/2019,C0090,Lic. Serafín de Anda,Mayorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,362,1177.33
+23/06/2019,C0090,Lic. Serafín de Anda,Mayorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,429,896.98
+15/06/2020,C0090,Lic. Serafín de Anda,Mayorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,179,326.5
+16/08/2019,C0090,Lic. Serafín de Anda,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,460,1239.7
+10/03/2020,C0090,Lic. Serafín de Anda,Mayorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,60,1378.25
+13/08/2019,C0090,Lic. Serafín de Anda,Mayorista,V0006,Ing. Adalberto Iglesias,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,107,523.14
+03/07/2021,C0089,Antonio Rael,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,171,1027.53
+04/05/2020,C0089,Antonio Rael,Minorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,42,595.16
+19/11/2020,C0089,Antonio Rael,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,388,655.4
+16/10/2024,C0089,Antonio Rael,Minorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,291,1181.26
+16/08/2022,C0089,Antonio Rael,Minorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,40,1088.24
+26/03/2023,C0089,Antonio Rael,Minorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,417,1179.32
+24/11/2019,C0089,Antonio Rael,Minorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,440,585.58
+20/08/2020,C0088,Karla Viera,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,50,808.61
+30/12/2023,C0088,Karla Viera,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,395,29.77
+12/11/2018,C0088,Karla Viera,Minorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Ninguna,S0003,Sucursal Este,Nororiente,Zacapa,94,671.91
+11/02/2020,C0088,Karla Viera,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,291,-1107.1
+25/08/2020,C0088,Karla Viera,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,85,1194.24
+09/09/2018,C0088,Karla Viera,Minorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,199,1152.04
+19/09/2020,C0087,Nadia Fuentes,Minorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,107,872.44
+13/02/2023,C0087,Nadia Fuentes,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,218,333.2
+06/12/2018,C0087,Nadia Fuentes,Minorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,3,-601.48
+02/07/2024,C0087,Nadia Fuentes,Minorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,414,109.54
+05/03/2019,C0087,Nadia Fuentes,Minorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,391,598.29
+20/03/2023,C0087,Nadia Fuentes,Minorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,481,649.26
+01/06/2024,C0087,Nadia Fuentes,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,429,957.66
+15/09/2020,C0087,Nadia Fuentes,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,247,999.02
+21/08/2019,C0087,Nadia Fuentes,Minorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,37,798.85
+12/07/2022,C0087,Nadia Fuentes,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Ninguna,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,467,1249.63
+21/07/2021,C0087,Nadia Fuentes,Minorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,154,732.44
+27/12/2020,C0087,Nadia Fuentes,Minorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,155,1346.53
+25/03/2024,C0087,Nadia Fuentes,Minorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,484,1491.01
+30/10/2021,C0087,Nadia Fuentes,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,458,402.97
+19/06/2018,C0087,Nadia Fuentes,Minorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,52,1399.57
+12/07/2021,C0087,Nadia Fuentes,Minorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,289,980.58
+17/02/2019,C0087,Nadia Fuentes,Minorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,178,740.14
+25/01/2019,C0087,Nadia Fuentes,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,327,1035.13
+17/05/2024,C0087,Nadia Fuentes,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,72,192.0
+30/06/2019,C0086,Gregorio María Candelaria,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,332,38.33
+26/06/2018,C0086,Gregorio María Candelaria,Minorista,V0007,Eugenio Correa,AC00002,CERVEZA HOFBRAU MUNCHEN,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,190,588.38
+07/11/2020,C0086,Gregorio María Candelaria,Minorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,121,181.22
+08/10/2019,C0086,Gregorio María Candelaria,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,493,1264.77
+23/03/2019,C0086,Gregorio María Candelaria,Minorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,46,1202.72
+07/04/2021,C0086,Gregorio María Candelaria,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,184,279.24
+21/09/2020,C0086,Gregorio María Candelaria,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,263,174.91
+05/10/2019,C0086,Gregorio María Candelaria,Minorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,250,170.23
+05/07/2021,C0086,Gregorio María Candelaria,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,166,1143.47
+09/08/2019,C0086,Gregorio María Candelaria,Minorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,458,22.78
+26/06/2018,C0086,Gregorio María Candelaria,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,283,1260.6
+20/02/2018,C0086,Gregorio María Candelaria,Minorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,196,570.7
+05/09/2021,C0085,Renato Caridad Matos Batista,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,206,1047.13
+24/09/2024,C0085,Renato Caridad Matos Batista,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,69,479.0
+16/01/2023,C0085,Renato Caridad Matos Batista,Minorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,401,44.56
+24/09/2018,C0085,Renato Caridad Matos Batista,Minorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,215,611.97
+01/03/2020,C0085,Renato Caridad Matos Batista,Minorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,217,525.57
+30/05/2020,C0085,Renato Caridad Matos Batista,Minorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,385,1325.4
+20/02/2024,C0085,Renato Caridad Matos Batista,Minorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,421,429.53
+31/10/2019,C0085,Renato Caridad Matos Batista,Minorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Ninguna,S0003,Sucursal Este,Nororiente,Zacapa,228,92.84
+01/07/2019,C0085,Renato Caridad Matos Batista,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,141,954.02
+20/06/2018,C0085,Renato Caridad Matos Batista,Minorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,485,1419.5
+19/01/2022,C0085,Renato Caridad Matos Batista,Minorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,240,1325.4
+26/07/2023,C0085,Renato Caridad Matos Batista,Minorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,302,1433.46
+12/09/2022,C0085,Renato Caridad Matos Batista,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,53,1100.03
+23/07/2019,C0085,Renato Caridad Matos Batista,Minorista,V0006,Ing. Adalberto Iglesias,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,323,547.94
+30/04/2022,C0084,Wendolin Ayala Dueñas,Minorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,411,160.94
+21/08/2022,C0084,Wendolin Ayala Dueñas,Minorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,145,1040.69
+28/01/2024,C0084,Wendolin Ayala Dueñas,Minorista,V0006,Ing. Adalberto Iglesias,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,398,307.98
+09/01/2020,C0084,Wendolin Ayala Dueñas,Minorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,345,198.27
+05/02/2023,C0084,Wendolin Ayala Dueñas,Minorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,141,195.75
+22/03/2021,C0084,Wendolin Ayala Dueñas,Minorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,43,1420.45
+25/02/2018,C0084,Wendolin Ayala Dueñas,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,352,1328.07
+15/07/2023,C0084,Wendolin Ayala Dueñas,Minorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,412,566.65
+20/01/2024,C0084,Wendolin Ayala Dueñas,Minorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,292,1370.36
+27/07/2024,C0084,Wendolin Ayala Dueñas,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,242,1402.48
+22/06/2024,C0083,Dr. Daniel Benavides,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,12,1309.61
+20/12/2019,C0083,Dr. Daniel Benavides,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,411,657.05
+24/04/2018,C0083,Dr. Daniel Benavides,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,11,254.58
+24/02/2022,C0083,Dr. Daniel Benavides,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,93,1216.43
+01/10/2022,C0083,Dr. Daniel Benavides,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,295,1067.12
+21/08/2022,C0082,Sr(a). Gloria Alba,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,45,626.37
+19/02/2018,C0082,Sr(a). Gloria Alba,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,342,721.45
+13/06/2018,C0082,Sr(a). Gloria Alba,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,362,694.81
+14/05/2021,C0082,Sr(a). Gloria Alba,Minorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,112,1122.38
+24/03/2021,C0082,Sr(a). Gloria Alba,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,153,302.84
+15/08/2019,C0082,Sr(a). Gloria Alba,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,338,1491.22
+18/05/2020,C0082,Sr(a). Gloria Alba,Minorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,450,460.65
+17/03/2020,C0082,Sr(a). Gloria Alba,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,114,865.17
+30/11/2021,C0082,Sr(a). Gloria Alba,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,498,695.18
+23/01/2019,C0081,Asunción Aldo Corrales Cadena,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,337,1485.69
+16/02/2019,C0081,Asunción Aldo Corrales Cadena,Minorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,42,1264.15
+15/07/2018,C0081,Asunción Aldo Corrales Cadena,Minorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,426,116.32
+20/10/2020,C0081,Asunción Aldo Corrales Cadena,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,103,948.02
+10/06/2021,C0081,Asunción Aldo Corrales Cadena,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,414,50.67
+11/11/2019,C0081,Asunción Aldo Corrales Cadena,Minorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,437,1065.57
+03/10/2019,C0081,Asunción Aldo Corrales Cadena,Minorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,401,1315.74
+22/06/2018,C0081,Asunción Aldo Corrales Cadena,Minorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,120,-184.95
+06/09/2024,C0081,Asunción Aldo Corrales Cadena,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,86,194.37
+28/12/2020,C0080,Gabino Montaño Benavídez,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,65,765.81
+04/01/2020,C0080,Gabino Montaño Benavídez,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,250,397.87
+31/10/2024,C0080,Gabino Montaño Benavídez,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,222,622.29
+16/12/2023,C0080,Gabino Montaño Benavídez,Minorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,256,455.47
+09/03/2021,C0080,Gabino Montaño Benavídez,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,44,575.93
+11/12/2018,C0080,Gabino Montaño Benavídez,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,134,581.95
+14/09/2022,C0080,Gabino Montaño Benavídez,Minorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,470,756.39
+08/06/2021,C0080,Gabino Montaño Benavídez,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,79,911.63
+05/11/2021,C0080,Gabino Montaño Benavídez,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,437,1103.32
+12/07/2021,C0080,Gabino Montaño Benavídez,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,467,218.64
+02/02/2020,C0079,Martha Cervántez,Minorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,359,1377.14
+10/06/2023,C0079,Martha Cervántez,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,60,1230.98
+02/08/2019,C0079,Martha Cervántez,Minorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,48,75.05
+20/08/2020,C0079,Martha Cervántez,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,153,594.06
+11/04/2024,C0079,Martha Cervántez,Minorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,66,1410.0
+26/06/2022,C0079,Martha Cervántez,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,253,1275.28
+22/12/2024,C0079,Martha Cervántez,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,85,191.05
+28/07/2024,C0078,Nancy Acevedo,Minorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,338,678.28
+18/05/2019,C0078,Nancy Acevedo,Minorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,130,835.8
+15/09/2018,C0078,Nancy Acevedo,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,492,634.04
+29/04/2020,C0078,Nancy Acevedo,Minorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,258,887.39
+05/07/2021,C0078,Nancy Acevedo,Minorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,330,1071.74
+24/05/2020,C0078,Nancy Acevedo,Minorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,-404,658.94
+08/03/2023,C0078,Nancy Acevedo,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,246,991.51
+17/07/2021,C0078,Nancy Acevedo,Minorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,163,414.74
+09/08/2018,C0078,Nancy Acevedo,Minorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,487,681.61
+02/02/2024,C0078,Nancy Acevedo,Minorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,108,264.63
+05/02/2019,C0077,Dr. Gerardo Caldera,Minorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,122,996.09
+04/06/2024,C0077,Dr. Gerardo Caldera,Minorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,15,1120.52
+20/03/2018,C0077,Dr. Gerardo Caldera,Minorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,408,650.74
+30/01/2021,C0077,Dr. Gerardo Caldera,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,327,770.71
+13/10/2019,C0077,Dr. Gerardo Caldera,Minorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,139,1089.14
+19/02/2023,C0077,Dr. Gerardo Caldera,Minorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,341,1328.87
+18/05/2023,C0077,Dr. Gerardo Caldera,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,298,653.19
+22/08/2018,C0076,Federico Ivonne Narváez,Minorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,281,251.15
+20/05/2024,C0076,Federico Ivonne Narváez,Minorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,118,1171.78
+24/02/2022,C0076,Federico Ivonne Narváez,Minorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,460,1187.18
+01/03/2023,C0076,Federico Ivonne Narváez,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,244,1482.75
+10/01/2024,C0076,Federico Ivonne Narváez,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,342,910.7
+30/09/2024,C0076,Federico Ivonne Narváez,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,271,43.24
+07/06/2021,C0076,Federico Ivonne Narváez,Minorista,V0004,Santiago Fabiola Naranjo,AC00003,QUESO CAMEMBERT,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,259,179.01
+27/08/2020,C0076,Federico Ivonne Narváez,Minorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Ninguna,S0004,Sucursal Oeste,Occidente,Huehuetenango,487,185.9
+30/04/2020,C0076,Federico Ivonne Narváez,Minorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,168,382.05
+28/03/2019,C0076,Federico Ivonne Narváez,Minorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,219,1091.61
+28/03/2022,C0076,Federico Ivonne Narváez,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,198,1399.21
+28/01/2018,C0076,Federico Ivonne Narváez,Minorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,126,65.48
+01/05/2024,C0076,Federico Ivonne Narváez,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,153,863.56
+30/11/2023,C0076,Federico Ivonne Narváez,Minorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,149,254.42
+24/09/2023,C0076,Federico Ivonne Narváez,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,336,243.69
+26/09/2020,C0076,Federico Ivonne Narváez,Minorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,411,37.12
+30/01/2022,C0076,Federico Ivonne Narváez,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,136,713.12
+23/03/2024,C0076,Federico Ivonne Narváez,Minorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,394,364.21
+07/04/2024,C0075,Raquel Felix Colunga Serrano,Mayorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,232,803.91
+06/11/2019,C0075,Raquel Felix Colunga Serrano,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,160,881.74
+04/12/2022,C0075,Raquel Felix Colunga Serrano,Mayorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,102,436.89
+22/06/2022,C0075,Raquel Felix Colunga Serrano,Mayorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,444,605.3
+22/12/2023,C0075,Raquel Felix Colunga Serrano,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,243,1400.41
+13/04/2020,C0075,Raquel Felix Colunga Serrano,Mayorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,288,1114.53
+11/04/2021,C0074,Emiliano Tamayo,Mayorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,314,1339.98
+25/05/2023,C0074,Emiliano Tamayo,Mayorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,154,861.86
+25/01/2021,C0074,Emiliano Tamayo,Mayorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,241,1104.21
+14/01/2024,C0074,Emiliano Tamayo,Mayorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,174,1038.38
+01/06/2021,C0074,Emiliano Tamayo,Mayorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,465,147.13
+17/11/2021,C0074,Emiliano Tamayo,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,434,591.4
+12/08/2022,C0074,Emiliano Tamayo,Mayorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,348,1264.87
+17/10/2019,C0074,Emiliano Tamayo,Mayorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Ninguna,S0001,Sucursal Norte,Metropolitana,Guatemala,382,178.65
+26/12/2019,C0074,Emiliano Tamayo,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,456,46.9
+29/08/2020,C0073,Mariano López,Mayorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,263,174.83
+04/09/2020,C0073,Mariano López,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,99,-1273.79
+22/05/2022,C0073,Mariano López,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,324,1049.03
+14/03/2019,C0073,Mariano López,Mayorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,254,1031.77
+16/04/2018,C0073,Mariano López,Mayorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,11,475.59
+11/05/2022,C0073,Mariano López,Mayorista,V0001,Renato de León,AC00001,GASEOSA POSTOBON UVA,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,48,1416.11
+25/12/2021,C0073,Mariano López,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,393,1307.63
+21/04/2021,C0073,Mariano López,Mayorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,98,1251.12
+09/08/2021,C0073,Mariano López,Mayorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,140,1327.1
+14/12/2023,C0073,Mariano López,Mayorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,405,815.13
+28/12/2020,C0072,Ana María Jorge Toro Méndez,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,434,1083.85
+21/05/2021,C0072,Ana María Jorge Toro Méndez,Mayorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,493,1246.62
+24/02/2022,C0072,Ana María Jorge Toro Méndez,Mayorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,481,650.4
+15/01/2020,C0072,Ana María Jorge Toro Méndez,Mayorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,467,662.65
+27/06/2021,C0072,Ana María Jorge Toro Méndez,Mayorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,193,249.94
+03/01/2024,C0072,Ana María Jorge Toro Méndez,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,225,1023.09
+24/02/2021,C0072,Ana María Jorge Toro Méndez,Mayorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,142,1347.11
+24/11/2020,C0072,Ana María Jorge Toro Méndez,Mayorista,V0006,Ing. Adalberto Iglesias,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,476,301.07
+12/11/2023,C0071,Roberto Nava,Mayorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,253,845.53
+13/02/2023,C0071,Roberto Nava,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,439,118.37
+20/01/2022,C0071,Roberto Nava,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,456,717.91
+01/10/2023,C0071,Roberto Nava,Mayorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,424,430.47
+31/12/2021,C0071,Roberto Nava,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,209,955.81
+22/09/2018,C0071,Roberto Nava,Mayorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,246,754.24
+21/08/2018,C0071,Roberto Nava,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,427,655.66
+01/08/2019,C0071,Roberto Nava,Mayorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,387,1411.43
+24/05/2024,C0071,Roberto Nava,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,133,339.11
+25/05/2018,C0070,Francisca Valdez,Mayorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,129,943.07
+28/01/2018,C0070,Francisca Valdez,Mayorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,440,992.37
+05/12/2020,C0070,Francisca Valdez,Mayorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,171,1258.35
+03/05/2022,C0070,Francisca Valdez,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,176,520.79
+07/05/2023,C0069,Lic. Augusto Campos,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,428,788.79
+14/09/2018,C0069,Lic. Augusto Campos,Mayorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,169,860.73
+26/07/2019,C0069,Lic. Augusto Campos,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,132,579.97
+26/12/2019,C0069,Lic. Augusto Campos,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,197,139.17
+18/10/2023,C0069,Lic. Augusto Campos,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,111,1302.31
+21/11/2019,C0069,Lic. Augusto Campos,Mayorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,57,86.29
+22/03/2018,C0069,Lic. Augusto Campos,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,467,570.21
+01/09/2021,C0069,Lic. Augusto Campos,Mayorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,274,155.44
+14/03/2024,C0068,Luis Manuel Rael Alvarez,Mayorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,372,435.7
+01/12/2022,C0068,Luis Manuel Rael Alvarez,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,462,-1134.72
+28/08/2018,C0068,Luis Manuel Rael Alvarez,Mayorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,447,406.59
+23/07/2020,C0068,Luis Manuel Rael Alvarez,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,452,1387.37
+22/10/2018,C0068,Luis Manuel Rael Alvarez,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,266,31.4
+08/11/2024,C0068,Luis Manuel Rael Alvarez,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,386,1133.19
+04/03/2018,C0068,Luis Manuel Rael Alvarez,Mayorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,4,246.11
+26/05/2018,C0068,Luis Manuel Rael Alvarez,Mayorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,357,1451.72
+03/07/2024,C0068,Luis Manuel Rael Alvarez,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,2,316.87
+03/04/2023,C0067,Ignacio Pablo Monroy Mendoza,Mayorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,336,974.39
+18/04/2018,C0067,Ignacio Pablo Monroy Mendoza,Mayorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,124,238.45
+31/05/2022,C0067,Ignacio Pablo Monroy Mendoza,Mayorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,378,1491.93
+02/07/2020,C0067,Ignacio Pablo Monroy Mendoza,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,220,569.09
+29/08/2021,C0067,Ignacio Pablo Monroy Mendoza,Mayorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,124,840.27
+16/07/2023,C0067,Ignacio Pablo Monroy Mendoza,Mayorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,139,1247.39
+22/10/2024,C0067,Ignacio Pablo Monroy Mendoza,Mayorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,266,912.71
+03/03/2024,C0067,Ignacio Pablo Monroy Mendoza,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,354,1405.46
+11/01/2018,C0066,Citlali Baca,Mayorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,138,554.91
+06/12/2019,C0066,Citlali Baca,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,156,1280.93
+11/07/2021,C0066,Citlali Baca,Mayorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,181,989.06
+09/02/2020,C0066,Citlali Baca,Mayorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,346,979.37
+14/09/2021,C0066,Citlali Baca,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,498,526.16
+15/02/2019,C0065,Armando Nancy Rubio Lemus,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,497,1416.85
+01/02/2022,C0065,Armando Nancy Rubio Lemus,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,51,1232.09
+20/10/2023,C0065,Armando Nancy Rubio Lemus,Mayorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,488,1149.49
+23/12/2023,C0065,Armando Nancy Rubio Lemus,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,149,550.07
+13/01/2019,C0065,Armando Nancy Rubio Lemus,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,158,1260.15
+27/09/2018,C0065,Armando Nancy Rubio Lemus,Mayorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,284,-1080.28
+20/10/2024,C0065,Armando Nancy Rubio Lemus,Mayorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,134,1017.36
+14/03/2023,C0065,Armando Nancy Rubio Lemus,Mayorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,469,129.75
+22/04/2022,C0065,Armando Nancy Rubio Lemus,Mayorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,485,48.91
+16/06/2023,C0065,Armando Nancy Rubio Lemus,Mayorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,126,701.39
+15/09/2019,C0065,Armando Nancy Rubio Lemus,Mayorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,444,1390.23
+27/11/2019,C0065,Armando Nancy Rubio Lemus,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,497,1199.91
+01/03/2021,C0064,Ángel Quiñones Contreras,Mayorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,28,972.62
+12/07/2020,C0064,Ángel Quiñones Contreras,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,163,1069.73
+15/10/2024,C0064,Ángel Quiñones Contreras,Mayorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,349,1472.28
+21/07/2022,C0064,Ángel Quiñones Contreras,Mayorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,10,547.8
+24/07/2021,C0064,Ángel Quiñones Contreras,Mayorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,464,1060.51
+11/04/2022,C0064,Ángel Quiñones Contreras,Mayorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,25,427.73
+31/12/2023,C0064,Ángel Quiñones Contreras,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,331,384.68
+30/08/2022,C0064,Ángel Quiñones Contreras,Mayorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,12,347.67
+10/05/2021,C0064,Ángel Quiñones Contreras,Mayorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,156,1175.59
+18/11/2023,C0064,Ángel Quiñones Contreras,Mayorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,147,494.36
+01/10/2023,C0064,Ángel Quiñones Contreras,Mayorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,223,152.88
+29/08/2023,C0063,Dr. Noemí Nazario,Mayorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,167,839.31
+05/04/2024,C0063,Dr. Noemí Nazario,Mayorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,329,1211.82
+19/05/2023,C0063,Dr. Noemí Nazario,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,256,807.9
+05/05/2022,C0063,Dr. Noemí Nazario,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,125,1056.43
+05/02/2022,C0063,Dr. Noemí Nazario,Mayorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,476,920.01
+27/01/2022,C0063,Dr. Noemí Nazario,Mayorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,63,387.27
+08/06/2020,C0063,Dr. Noemí Nazario,Mayorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,449,1379.04
+07/07/2019,C0063,Dr. Noemí Nazario,Mayorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,356,330.77
+25/07/2020,C0063,Dr. Noemí Nazario,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,378,150.29
+17/08/2018,C0063,Dr. Noemí Nazario,Mayorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,197,741.98
+25/01/2018,C0063,Dr. Noemí Nazario,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,12,828.7
+02/05/2022,C0063,Dr. Noemí Nazario,Mayorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,398,1042.32
+05/10/2018,C0063,Dr. Noemí Nazario,Mayorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,169,458.05
+16/04/2018,C0063,Dr. Noemí Nazario,Mayorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,492,944.14
+15/10/2020,C0063,Dr. Noemí Nazario,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,418,488.34
+16/09/2021,C0062,Mercedes Zoé Ceja,Mayorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,421,1473.68
+31/01/2018,C0062,Mercedes Zoé Ceja,Mayorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,277,350.38
+13/08/2022,C0062,Mercedes Zoé Ceja,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,72,1228.3
+12/03/2022,C0062,Mercedes Zoé Ceja,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,169,1455.11
+07/09/2021,C0062,Mercedes Zoé Ceja,Mayorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,431,384.25
+18/07/2018,C0062,Mercedes Zoé Ceja,Mayorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,156,933.47
+15/04/2024,C0062,Mercedes Zoé Ceja,Mayorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,311,745.9
+05/01/2018,C0062,Mercedes Zoé Ceja,Mayorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,409,80.45
+18/02/2018,C0062,Mercedes Zoé Ceja,Mayorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,327,1382.96
+15/04/2022,C0062,Mercedes Zoé Ceja,Mayorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,389,1361.09
+26/09/2021,C0062,Mercedes Zoé Ceja,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,95,1226.16
+06/08/2020,C0062,Mercedes Zoé Ceja,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,246,-244.45
+01/11/2023,C0062,Mercedes Zoé Ceja,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,492,1094.16
+28/06/2022,C0062,Mercedes Zoé Ceja,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,495,1049.58
+02/10/2020,C0062,Mercedes Zoé Ceja,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,391,1403.11
+19/01/2024,C0062,Mercedes Zoé Ceja,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,329,1045.17
+10/11/2022,C0062,Mercedes Zoé Ceja,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,102,163.32
+11/08/2024,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,314,93.37
+09/01/2021,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,268,683.87
+17/11/2023,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,345,171.18
+20/06/2019,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,201,406.14
+29/07/2021,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,301,1364.97
+02/08/2024,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,9,956.16
+26/11/2024,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,147,-180.23
+28/04/2023,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,482,199.09
+28/11/2020,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,428,354.01
+03/06/2021,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,411,114.72
+24/02/2023,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,216,402.41
+11/10/2023,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,103,1045.66
+14/07/2022,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,384,1314.28
+18/07/2022,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,426,703.27
+10/12/2023,C0061,Maximiliano Ozuna Bañuelos,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,293,1012.75
+25/11/2021,C0060,Leticia Hermelinda Gaona,Mayorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,241,359.07
+11/10/2021,C0060,Leticia Hermelinda Gaona,Mayorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,332,-844.8
+22/05/2021,C0060,Leticia Hermelinda Gaona,Mayorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,149,710.31
+25/10/2022,C0060,Leticia Hermelinda Gaona,Mayorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,316,459.95
+25/08/2020,C0060,Leticia Hermelinda Gaona,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,470,1439.93
+14/04/2021,C0060,Leticia Hermelinda Gaona,Mayorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,473,301.69
+05/06/2018,C0060,Leticia Hermelinda Gaona,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,19,1449.34
+07/05/2020,C0060,Leticia Hermelinda Gaona,Mayorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,320,537.17
+01/12/2023,C0060,Leticia Hermelinda Gaona,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,205,443.29
+12/06/2019,C0060,Leticia Hermelinda Gaona,Mayorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,124,1198.18
+08/10/2021,C0059,Eloisa Montez Valdés,Minorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,132,255.52
+20/08/2024,C0059,Eloisa Montez Valdés,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,454,453.31
+03/08/2019,C0059,Eloisa Montez Valdés,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,137,45.3
+13/10/2021,C0059,Eloisa Montez Valdés,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,98,1419.89
+15/05/2022,C0059,Eloisa Montez Valdés,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,180,459.31
+06/07/2023,C0059,Eloisa Montez Valdés,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,213,384.97
+18/08/2019,C0059,Eloisa Montez Valdés,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,256,1024.77
+29/05/2019,C0059,Eloisa Montez Valdés,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,364,352.56
+29/02/2024,C0059,Eloisa Montez Valdés,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,386,882.43
+06/06/2020,C0059,Eloisa Montez Valdés,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,473,599.98
+20/02/2023,C0059,Eloisa Montez Valdés,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,228,1334.99
+14/04/2023,C0059,Eloisa Montez Valdés,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,130,1089.21
+07/01/2019,C0058,Marco Antonio Eric Trejo,Minorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,478,71.19
+30/08/Z019,C0058,Marco Antonio Eric Trejo,Minorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,173,1184.85
+04/07/2019,C0058,Marco Antonio Eric Trejo,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,312,967.35
+23/09/2024,C0058,Marco Antonio Eric Trejo,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,442,87.29
+14/01/2020,C0058,Marco Antonio Eric Trejo,Minorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,47,1138.39
+27/08/2019,C0058,Marco Antonio Eric Trejo,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,172,136.49
+22/06/2020,C0058,Marco Antonio Eric Trejo,Minorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,270,503.4
+23/09/2018,C0058,Marco Antonio Eric Trejo,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,487,1459.24
+31/05/2023,C0058,Marco Antonio Eric Trejo,Minorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,380,1189.03
+08/04/2023,C0058,Marco Antonio Eric Trejo,Minorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,301,623.57
+10/12/2018,C0058,Marco Antonio Eric Trejo,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,376,287.42
+28/09/2021,C0058,Marco Antonio Eric Trejo,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,433,809.51
+11/10/2020,C0058,Marco Antonio Eric Trejo,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,306,180.85
+19/01/2022,C0058,Marco Antonio Eric Trejo,Minorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,390,222.93
+15/12/2024,C0058,Marco Antonio Eric Trejo,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,117,699.29
+22/08/2024,C0057,Víctor Castillo,Minorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,288,1065.09
+17/03/2020,C0057,Víctor Castillo,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,444,133.94
+24/12/2021,C0057,Víctor Castillo,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,293,950.71
+06/11/2021,C0057,Víctor Castillo,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,389,432.48
+29/11/2021,C0057,Víctor Castillo,Minorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,192,138.98
+21/01/2021,C0057,Víctor Castillo,Minorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,484,1162.91
+22/08/2019,C0057,Víctor Castillo,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,311,1133.9
+31/10/2020,C0057,Víctor Castillo,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,138,735.98
+01/11/2022,C0057,Víctor Castillo,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,108,805.38
+29/01/2022,C0057,Víctor Castillo,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,434,404.81
+05/06/2021,C0056,Alvaro Eva Sevilla Colunga,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,348,483.8
+26/09/2021,C0056,Alvaro Eva Sevilla Colunga,Minorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,-23,170.07
+30/05/2019,C0056,Alvaro Eva Sevilla Colunga,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,431,1277.75
+15/06/2024,C0056,Alvaro Eva Sevilla Colunga,Minorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,149,145.21
+19/04/2021,C0056,Alvaro Eva Sevilla Colunga,Minorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,313,916.21
+29/05/2021,C0056,Alvaro Eva Sevilla Colunga,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,163,523.5
+13/10/2021,C0056,Alvaro Eva Sevilla Colunga,Minorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,445,49.07
+28/12/2024,C0056,Alvaro Eva Sevilla Colunga,Minorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,225,190.22
+20/08/2019,C0056,Alvaro Eva Sevilla Colunga,Minorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,156,929.14
+04/07/2024,C0055,Sessa Barrientos González,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,232,750.5
+18/09/2018,C0055,Sessa Barrientos González,Minorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,259,1209.13
+01/01/2023,C0055,Sessa Barrientos González,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,422,256.82
+15/04/2023,C0055,Sessa Barrientos González,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,131,832.57
+08/02/2021,C0055,Sessa Barrientos González,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,145,736.6
+01/03/2020,C0055,Sessa Barrientos González,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,77,1341.28
+02/01/2024,C0055,Sessa Barrientos González,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,43,225.48
+25/05/2023,C0055,Sessa Barrientos González,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,91,897.16
+10/11/2024,C0055,Sessa Barrientos González,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,382,1489.03
+16/08/2024,C0055,Sessa Barrientos González,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,339,183.6
+15/09/2021,C0055,Sessa Barrientos González,Minorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,479,393.3
+21/09/2018,C0055,Sessa Barrientos González,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,92,450.46
+22/03/2020,C0055,Sessa Barrientos González,Minorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,370,984.55
+15/10/2023,C0055,Sessa Barrientos González,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,29,1453.49
+19/08/2019,C0054,Sr(a). Gerardo Alcántar,Minorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,225,376.81
+12/02/2023,C0054,Sr(a). Gerardo Alcántar,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,374,1346.2
+16/05/2023,C0054,Sr(a). Gerardo Alcántar,Minorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,103,291.22
+19/03/2023,C0054,Sr(a). Gerardo Alcántar,Minorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,272,963.84
+08/09/2020,C0054,Sr(a). Gerardo Alcántar,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,19,738.93
+22/05/2019,C0054,Sr(a). Gerardo Alcántar,Minorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,147,764.96
+11/11/2020,C0054,Sr(a). Gerardo Alcántar,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,88,276.96
+06/08/2020,C0054,Sr(a). Gerardo Alcántar,Minorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,117,649.3
+01/11/2021,C0054,Sr(a). Gerardo Alcántar,Minorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,383,219.63
+14/04/2024,C0054,Sr(a). Gerardo Alcántar,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,384,798.26
+22/01/2022,C0054,Sr(a). Gerardo Alcántar,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,8,53.98
+03/05/2018,C0054,Sr(a). Gerardo Alcántar,Minorista,V0006,Ing. Adalberto Iglesias,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,414,254.24
+25/04/2019,C0054,Sr(a). Gerardo Alcántar,Minorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,49,1107.77
+10/04/2023,C0054,Sr(a). Gerardo Alcántar,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,374,410.95
+24/05/2020,C0054,Sr(a). Gerardo Alcántar,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,317,347.93
+31/01/2020,C0053,Patricia Gamez,Minorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,277,83.04
+01/12/2019,C0053,Patricia Gamez,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,27,315.8
+13/07/2020,C0053,Patricia Gamez,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,275,636.34
+23/02/2020,C0053,Patricia Gamez,Minorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,365,811.23
+29/03/2024,C0053,Patricia Gamez,Minorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,197,636.71
+22/08/2023,C0053,Patricia Gamez,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,296,724.72
+12/10/2020,C0053,Patricia Gamez,Minorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,491,1153.65
+03/07/2020,C0052,Sr(a). Ernesto Medina,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,80,21.38
+01/12/2020,C0052,Sr(a). Ernesto Medina,Minorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,143,1150.75
+03/06/2020,C0052,Sr(a). Ernesto Medina,Minorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,-224,283.05
+31/10/2023,C0052,Sr(a). Ernesto Medina,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,482,1046.36
+07/03/2018,C0052,Sr(a). Ernesto Medina,Minorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,309,163.1
+01/12/2019,C0052,Sr(a). Ernesto Medina,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,85,1034.11
+07/11/2023,C0051,Germán Alberto Iglesias,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,316,543.1
+24/02/2020,C0051,Germán Alberto Iglesias,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,267,516.05
+29/09/2024,C0051,Germán Alberto Iglesias,Minorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,1,158.85
+15/09/2022,C0051,Germán Alberto Iglesias,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,219,379.2
+07/08/2018,C0051,Germán Alberto Iglesias,Minorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,138,993.96
+29/09/2022,C0051,Germán Alberto Iglesias,Minorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,155,51.0
+02/09/2019,C0051,Germán Alberto Iglesias,Minorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,232,347.73
+30/06/2018,C0051,Germán Alberto Iglesias,Minorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,289,176.79
+05/10/2023,C0051,Germán Alberto Iglesias,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,498,-864.69
+23/07/2023,C0051,Germán Alberto Iglesias,Minorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,468,1484.62
+26/10/2020,C0050,Barbara Sara Alemán,Minorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,310,26.03
+05/01/2021,C0050,Barbara Sara Alemán,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,222,1229.58
+05/05/2021,C0050,Barbara Sara Alemán,Minorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,192,1348.37
+14/05/2019,C0050,Barbara Sara Alemán,Minorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,10,970.84
+14/10/2024,C0050,Barbara Sara Alemán,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,324,737.51
+09/02/2024,C0050,Barbara Sara Alemán,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,371,1313.86
+09/03/2020,C0049,Miriam Pascual Ortega Farías,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,47,338.15
+27/11/2018,C0049,Miriam Pascual Ortega Farías,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,15,891.84
+11/08/2021,C0049,Miriam Pascual Ortega Farías,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,259,960.14
+13/11/2019,C0049,Miriam Pascual Ortega Farías,Minorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,64,702.1
+22/12/2023,C0049,Miriam Pascual Ortega Farías,Minorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,310,652.74
+29/04/2024,C0049,Miriam Pascual Ortega Farías,Minorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,114,514.22
+11/02/2019,C0049,Miriam Pascual Ortega Farías,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,491,1316.0
+28/07/2022,C0049,Miriam Pascual Ortega Farías,Minorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,401,783.11
+04/02/2023,C0049,Miriam Pascual Ortega Farías,Minorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,339,468.14
+26/04/2023,C0049,Miriam Pascual Ortega Farías,Minorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,86,308.09
+11/05/2019,C0049,Miriam Pascual Ortega Farías,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,109,1488.31
+07/10/2024,C0048,Armando María Elena Echeverría,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,324,547.51
+06/01/2024,C0048,Armando María Elena Echeverría,Minorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,198,1341.75
+23/06/2018,C0048,Armando María Elena Echeverría,Minorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,368,795.87
+16/09/2021,C0048,Armando María Elena Echeverría,Minorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,42,698.45
+09/07/2023,C0048,Armando María Elena Echeverría,Minorista,V0006,Ing. Adalberto Iglesias,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,78,1133.51
+02/01/2021,C0048,Armando María Elena Echeverría,Minorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,61,566.63
+20/03/2023,C0048,Armando María Elena Echeverría,Minorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,165,1073.04
+15/02/2024,C0048,Armando María Elena Echeverría,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,125,724.42
+24/04/2019,C0048,Armando María Elena Echeverría,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,45,1332.48
+22/04/2020,C0048,Armando María Elena Echeverría,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,238,634.09
+17/04/2022,C0048,Armando María Elena Echeverría,Minorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,471,101.01
+22/10/2022,C0048,Armando María Elena Echeverría,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,375,675.56
+15/02/2019,C0048,Armando María Elena Echeverría,Minorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,18,976.12
+01/02/2019,C0048,Armando María Elena Echeverría,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,158,1258.4
+04/03/2024,C0048,Armando María Elena Echeverría,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,425,1121.64
+28/04/2024,C0048,Armando María Elena Echeverría,Minorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,167,843.73
+19/10/2021,C0047,Cecilia Malave,Minorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,195,159.56
+10/09/2019,C0047,Cecilia Malave,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,70,35.61
+09/07/2020,C0047,Cecilia Malave,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,391,766.26
+25/06/2024,C0047,Cecilia Malave,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,484,1026.38
+28/10/2020,C0047,Cecilia Malave,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,467,533.78
+13/12/2021,C0047,Cecilia Malave,Minorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,241,1414.58
+24/02/2024,C0046,Alejandra de Anda,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,174,1475.67
+26/04/2021,C0046,Alejandra de Anda,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,222,1057.8
+25/04/2018,C0046,Alejandra de Anda,Minorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,127,363.41
+03/09/2020,C0046,Alejandra de Anda,Minorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,437,1039.85
+04/02/2018,C0046,Alejandra de Anda,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,414,1080.95
+18/01/2019,C0046,Alejandra de Anda,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,403,425.49
+08/03/2020,C0046,Alejandra de Anda,Minorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,352,1132.65
+07/05/2024,C0046,Alejandra de Anda,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,122,69.55
+17/06/2023,C0046,Alejandra de Anda,Minorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,488,650.23
+03/04/Z018,C0046,Alejandra de Anda,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,39,1458.07
+27/06/2019,C0046,Alejandra de Anda,Minorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,453,913.99
+20/05/2019,C0046,Alejandra de Anda,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,386,47.3
+25/04/2020,C0045,Francisco Javier Mateo Apodaca,Minorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,274,462.82
+18/01/2020,C0045,Francisco Javier Mateo Apodaca,Minorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,111,1095.86
+27/08/2018,C0045,Francisco Javier Mateo Apodaca,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,486,875.93
+10/01/2022,C0045,Francisco Javier Mateo Apodaca,Minorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,428,264.92
+04/06/2021,C0045,Francisco Javier Mateo Apodaca,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,24,254.7
+15/06/2022,C0045,Francisco Javier Mateo Apodaca,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,376,586.51
+13/09/2020,C0045,Francisco Javier Mateo Apodaca,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,52,654.74
+22/05/2020,C0045,Francisco Javier Mateo Apodaca,Minorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,4,1410.33
+29/05/2023,C0045,Francisco Javier Mateo Apodaca,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,475,1033.01
+31/07/2021,C0045,Francisco Javier Mateo Apodaca,Minorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,415,1133.68
+17/03/2023,C0045,Francisco Javier Mateo Apodaca,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,58,773.89
+30/08/2021,C0044,Ruby Estela Orozco,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,427,275.81
+26/04/2024,C0044,Ruby Estela Orozco,Minorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,247,245.75
+10/11/2023,C0044,Ruby Estela Orozco,Minorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,379,1397.33
+20/02/2024,C0044,Ruby Estela Orozco,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,190,1217.09
+30/01/2020,C0044,Ruby Estela Orozco,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,249,1014.11
+14/03/2020,C0044,Ruby Estela Orozco,Minorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,194,922.05
+13/10/2020,C0043,Lucía Claudio Valadez,Minorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,6,966.32
+03/02/2021,C0043,Lucía Claudio Valadez,Minorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,144,217.7
+13/09/2023,C0043,Lucía Claudio Valadez,Minorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,455,91.57
+17/01/2024,C0043,Lucía Claudio Valadez,Minorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,4,623.05
+04/10/2018,C0043,Lucía Claudio Valadez,Minorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,74,173.62
+02/06/2020,C0043,Lucía Claudio Valadez,Minorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,312,722.65
+21/11/2023,C0043,Lucía Claudio Valadez,Minorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,123,1438.82
+24/11/2020,C0043,Lucía Claudio Valadez,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,392,157.07
+06/05/2022,C0043,Lucía Claudio Valadez,Minorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,423,1484.97
+17/01/2024,C0043,Lucía Claudio Valadez,Minorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,465,1377.75
+12/05/2022,C0043,Lucía Claudio Valadez,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,372,1255.6
+04/12/2022,C0043,Lucía Claudio Valadez,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,354,-506.99
+22/10/2021,C0043,Lucía Claudio Valadez,Minorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,305,247.33
+29/11/2019,C0043,Lucía Claudio Valadez,Minorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,197,876.53
+11/12/2021,C0043,Lucía Claudio Valadez,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,499,844.06
+25/04/2023,C0042,Modesto Ofelia Barraza,Minorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,244,182.64
+13/09/2022,C0042,Modesto Ofelia Barraza,Minorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,189,285.11
+17/12/2023,C0042,Modesto Ofelia Barraza,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,48,607.3
+20/10/2018,C0042,Modesto Ofelia Barraza,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,341,722.31
+18/01/2020,C0042,Modesto Ofelia Barraza,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,466,915.68
+17/02/2019,C0042,Modesto Ofelia Barraza,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,164,748.9
+02/06/2018,C0042,Modesto Ofelia Barraza,Minorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,146,908.68
+07/11/2019,C0042,Modesto Ofelia Barraza,Minorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,98,1090.3
+28/12/2021,C0042,Modesto Ofelia Barraza,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,-449,435.38
+22/07/2019,C0042,Modesto Ofelia Barraza,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,294,311.99
+09/05/2018,C0041,Pascual Luz Madrigal Granado,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,255,1317.42
+23/12/2024,C0041,Pascual Luz Madrigal Granado,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,280,328.66
+14/12/2020,C0041,Pascual Luz Madrigal Granado,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,134,272.62
+09/04/2024,C0041,Pascual Luz Madrigal Granado,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,51,819.54
+02/10/2020,C0041,Pascual Luz Madrigal Granado,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,227,362.18
+19/01/2023,C0041,Pascual Luz Madrigal Granado,Minorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,385,50.18
+02/09/2018,C0041,Pascual Luz Madrigal Granado,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,231,1415.84
+11/05/2022,C0041,Pascual Luz Madrigal Granado,Minorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,368,503.37
+26/07/2020,C0041,Pascual Luz Madrigal Granado,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,259,1475.12
+07/02/2019,C0041,Pascual Luz Madrigal Granado,Minorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,265,36.04
+22/01/2022,C0040,Elvira Ana María Lozano Portillo,Minorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,240,1335.44
+31/05/2019,C0040,Elvira Ana María Lozano Portillo,Minorista,V0006,Ing. Adalberto Iglesias,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,427,560.67
+09/09/2022,C0040,Elvira Ana María Lozano Portillo,Minorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,2,196.66
+13/06/2019,C0040,Elvira Ana María Lozano Portillo,Minorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,490,933.78
+01/08/2022,C0040,Elvira Ana María Lozano Portillo,Minorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,412,873.58
+29/09/2021,C0040,Elvira Ana María Lozano Portillo,Minorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,312,1170.35
+06/09/2022,C0039,Wilfrido Casillas,Minorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,314,1479.84
+05/11/2021,C0039,Wilfrido Casillas,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,99,189.5
+07/04/2023,C0039,Wilfrido Casillas,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,325,317.28
+19/02/2023,C0039,Wilfrido Casillas,Minorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,298,281.37
+21/11/2018,C0039,Wilfrido Casillas,Minorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,73,1178.93
+22/07/2020,C0039,Wilfrido Casillas,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,438,1132.29
+06/05/2022,C0039,Wilfrido Casillas,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,17,1242.32
+07/04/2023,C0039,Wilfrido Casillas,Minorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,386,1316.45
+08/10/2020,C0039,Wilfrido Casillas,Minorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,41,841.33
+02/08/2020,C0039,Wilfrido Casillas,Minorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,58,415.86
+15/07/2020,C0039,Wilfrido Casillas,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,340,509.72
+29/07/2024,C0038,Pedro Elvia Peralta Aparicio,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,373,1180.76
+26/06/2023,C0038,Pedro Elvia Peralta Aparicio,Minorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,496,585.48
+04/07/2023,C0038,Pedro Elvia Peralta Aparicio,Minorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,53,951.16
+14/12/2020,C0038,Pedro Elvia Peralta Aparicio,Minorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,377,982.09
+10/08/2021,C0038,Pedro Elvia Peralta Aparicio,Minorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,356,479.71
+20/03/2024,C0038,Pedro Elvia Peralta Aparicio,Minorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,344,23.84
+22/11/2018,C0038,Pedro Elvia Peralta Aparicio,Minorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,119,691.89
+09/07/2022,C0038,Pedro Elvia Peralta Aparicio,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,307,545.33
+07/07/2023,C0038,Pedro Elvia Peralta Aparicio,Minorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,251,542.4
+01/12/2022,C0038,Pedro Elvia Peralta Aparicio,Minorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,367,1392.17
+11/02/2021,C0037,Sr(a). Lorenzo Serrano,Minorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,365,809.95
+10/06/2018,C0037,Sr(a). Lorenzo Serrano,Minorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,352,1464.63
+17/08/2019,C0037,Sr(a). Lorenzo Serrano,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,208,369.15
+26/04/2018,C0037,Sr(a). Lorenzo Serrano,Minorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,406,231.73
+15/06/2024,C0037,Sr(a). Lorenzo Serrano,Minorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,37,509.85
+07/09/2018,C0037,Sr(a). Lorenzo Serrano,Minorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,159,761.03
+27/03/2019,C0037,Sr(a). Lorenzo Serrano,Minorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,88,487.22
+19/02/2023,C0037,Sr(a). Lorenzo Serrano,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,379,468.41
+05/11/2024,C0037,Sr(a). Lorenzo Serrano,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,74,1493.93
+01/02/2023,C0037,Sr(a). Lorenzo Serrano,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,10,1176.35
+Z8/09/2021,C0036,Sr(a). Hermelinda Madrid,Minorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,141,1288.92
+10/02/2019,C0036,Sr(a). Hermelinda Madrid,Minorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,351,1268.02
+12/05/2024,C0036,Sr(a). Hermelinda Madrid,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,232,737.05
+05/03/2018,C0036,Sr(a). Hermelinda Madrid,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,252,807.2
+22/09/2019,C0036,Sr(a). Hermelinda Madrid,Minorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,453,1027.92
+01/12/2021,C0036,Sr(a). Hermelinda Madrid,Minorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,108,1095.04
+21/09/2020,C0036,Sr(a). Hermelinda Madrid,Minorista,V0004,Santiago Fabiola Naranjo,AC00004,VINO GATO BLANCO,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,361,1450.25
+24/06/2018,C0036,Sr(a). Hermelinda Madrid,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,316,311.47
+26/02/2024,C0036,Sr(a). Hermelinda Madrid,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,422,326.81
+11/03/2018,C0036,Sr(a). Hermelinda Madrid,Minorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,92,1070.32
+01/03/2022,C0036,Sr(a). Hermelinda Madrid,Minorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,136,1152.81
+30/05/2021,C0036,Sr(a). Hermelinda Madrid,Minorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,197,674.37
+11/08/2021,C0036,Sr(a). Hermelinda Madrid,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,196,40.56
+14/03/2024,C0036,Sr(a). Hermelinda Madrid,Minorista,V0008,Mtro. Hugo Ruelas,AC00005,SERVILLETAS FAMILIA MAX,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,50,343.67
+19/04/2020,C0036,Sr(a). Hermelinda Madrid,Minorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,242,214.41
+25/04/2023,C0036,Sr(a). Hermelinda Madrid,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,334,505.69
+13/05/2021,C0035,Anel Ricardo Palomino Montes,Minorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,221,1286.66
+25/04/2021,C0035,Anel Ricardo Palomino Montes,Minorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,214,1381.81
+29/05/2019,C0035,Anel Ricardo Palomino Montes,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,83,222.71
+10/02/2023,C0035,Anel Ricardo Palomino Montes,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,410,1027.38
+02/06/2022,C0035,Anel Ricardo Palomino Montes,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,293,338.44
+15/10/2020,C0035,Anel Ricardo Palomino Montes,Minorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,279,455.66
+19/04/2018,C0035,Anel Ricardo Palomino Montes,Minorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,381,329.62
+20/04/2023,C0035,Anel Ricardo Palomino Montes,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,309,1171.51
+15/12/2021,C0035,Anel Ricardo Palomino Montes,Minorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,179,1066.5
+26/10/2020,C0035,Anel Ricardo Palomino Montes,Minorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,178,960.8
+18/09/2020,C0035,Anel Ricardo Palomino Montes,Minorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,28,529.75
+13/03/2023,C0035,Anel Ricardo Palomino Montes,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,264,436.38
+21/03/2021,C0034,Conchita Melgar Montaño,Minorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,176,1476.35
+04/04/2021,C0034,Conchita Melgar Montaño,Minorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,395,1270.59
+19/08/2019,C0034,Conchita Melgar Montaño,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,433,400.41
+14/08/2020,C0034,Conchita Melgar Montaño,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,412,350.44
+16/05/2019,C0034,Conchita Melgar Montaño,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,308,401.33
+10/07/2020,C0034,Conchita Melgar Montaño,Minorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,190,880.61
+01/11/2023,C0034,Conchita Melgar Montaño,Minorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,256,1309.44
+20/06/2018,C0034,Conchita Melgar Montaño,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,41,1124.34
+18/07/2021,C0034,Conchita Melgar Montaño,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,230,457.47
+12/01/2023,C0034,Conchita Melgar Montaño,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,175,327.78
+26/10/2023,C0034,Conchita Melgar Montaño,Minorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,92,306.04
+19/10/2020,C0034,Conchita Melgar Montaño,Minorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,195,987.48
+14/03/2020,C0034,Conchita Melgar Montaño,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,401,1495.31
+27/05/2019,C0034,Conchita Melgar Montaño,Minorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,167,1478.11
+26/10/2019,C0034,Conchita Melgar Montaño,Minorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,164,234.45
+21/12/2018,C0034,Conchita Melgar Montaño,Minorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,358,267.95
+13/06/2024,C0034,Conchita Melgar Montaño,Minorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,277,1081.7
+13/06/2024,C0034,Conchita Melgar Montaño,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,48,345.05
+20/08/2020,C0034,Conchita Melgar Montaño,Minorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,170,869.85
+29/10/2024,C0034,Conchita Melgar Montaño,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,350,783.26
+23/11/2023,C0034,Conchita Melgar Montaño,Minorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,225,729.0
+30/03/2023,C0034,Conchita Melgar Montaño,Minorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,321,668.47
+18/12/2024,C0033,Ilse Minerva Villaseñor Díaz,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,393,24.1
+13/05/2018,C0033,Ilse Minerva Villaseñor Díaz,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,108,1291.23
+29/07/2021,C0033,Ilse Minerva Villaseñor Díaz,Minorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,-58,158.88
+20/07/2020,C0033,Ilse Minerva Villaseñor Díaz,Minorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,496,442.78
+20/11/2022,C0032,Ana Luisa Tórrez,Minorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,457,1392.31
+24/10/2022,C0032,Ana Luisa Tórrez,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,351,-829.33
+20/08/2020,C0032,Ana Luisa Tórrez,Minorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,144,1153.59
+22/05/2022,C0032,Ana Luisa Tórrez,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,268,1088.7
+09/02/2019,C0032,Ana Luisa Tórrez,Minorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,111,1144.67
+12/02/2023,C0032,Ana Luisa Tórrez,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,31,165.64
+03/06/2023,C0032,Ana Luisa Tórrez,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,286,803.58
+22/10/2018,C0031,Sr(a). Sessa Rivera,Minorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,3,391.68
+30/09/2022,C0031,Sr(a). Sessa Rivera,Minorista,V0003,Serafín Carvajal,AC00005,SERVILLETAS FAMILIA MAX,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,34,329.69
+27/08/2022,C0031,Sr(a). Sessa Rivera,Minorista,V0006,Ing. Adalberto Iglesias,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,86,293.21
+16/02/2019,C0031,Sr(a). Sessa Rivera,Minorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,280,1050.81
+01/06/2024,C0030,Olga Riojas Solís,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,460,696.25
+21/06/2023,C0030,Olga Riojas Solís,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,247,1105.86
+02/06/2024,C0030,Olga Riojas Solís,Minorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,122,1110.8
+30/04/2021,C0030,Olga Riojas Solís,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,395,479.41
+21/12/2020,C0030,Olga Riojas Solís,Minorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,274,918.09
+21/01/2018,C0030,Olga Riojas Solís,Minorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,191,1091.49
+16/09/2018,C0030,Olga Riojas Solís,Minorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,160,1114.66
+28/08/2019,C0030,Olga Riojas Solís,Minorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,283,427.05
+15/10/2019,C0029,Manuel Verdugo Aragón,Minorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,276,1276.44
+23/03/2019,C0029,Manuel Verdugo Aragón,Minorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,335,968.52
+09/09/2020,C0029,Manuel Verdugo Aragón,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,141,1045.18
+14/09/2018,C0029,Manuel Verdugo Aragón,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,187,651.09
+13/11/2019,C0029,Manuel Verdugo Aragón,Minorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,419,1043.25
+09/10/2020,C0029,Manuel Verdugo Aragón,Minorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,101,1286.67
+30/06/2020,C0029,Manuel Verdugo Aragón,Minorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,113,1104.88
+15/04/2019,C0029,Manuel Verdugo Aragón,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Ninguna,S0003,Sucursal Este,Nororiente,Zacapa,369,1483.9
+04/01/2024,C0029,Manuel Verdugo Aragón,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,445,985.66
+02/05/2020,C0029,Manuel Verdugo Aragón,Minorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,434,1319.54
+26/09/2019,C0029,Manuel Verdugo Aragón,Minorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,142,688.39
+10/12/2023,C0029,Manuel Verdugo Aragón,Minorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,302,639.84
+04/08/2023,C0028,Mariana Raquel Acevedo,Minorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,474,121.97
+25/06/2020,C0028,Mariana Raquel Acevedo,Minorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,374,650.74
+12/12/2021,C0028,Mariana Raquel Acevedo,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,367,58.39
+25/03/2022,C0028,Mariana Raquel Acevedo,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,303,548.21
+21/09/2024,C0028,Mariana Raquel Acevedo,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,20,824.45
+29/03/2024,C0028,Mariana Raquel Acevedo,Minorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,43,1095.7
+Z1/01/2020,C0028,Mariana Raquel Acevedo,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,85,721.06
+22/05/2020,C0028,Mariana Raquel Acevedo,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,125,253.22
+14/01/2023,C0027,Luis Miguel Antonia Negrón,Minorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,73,1415.77
+14/07/2024,C0027,Luis Miguel Antonia Negrón,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,243,529.85
+24/07/2020,C0027,Luis Miguel Antonia Negrón,Minorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,379,1317.84
+28/02/2023,C0027,Luis Miguel Antonia Negrón,Minorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,105,878.77
+28/05/2021,C0027,Luis Miguel Antonia Negrón,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,6,948.91
+23/09/2021,C0027,Luis Miguel Antonia Negrón,Minorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,67,-913.37
+02/10/2018,C0027,Luis Miguel Antonia Negrón,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,6,486.77
+16/08/2018,C0026,Sr(a). Celia Bahena,Minorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,48,1222.08
+30/06/2022,C0026,Sr(a). Celia Bahena,Minorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,442,758.54
+09/03/2022,C0026,Sr(a). Celia Bahena,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,462,1309.35
+28/12/2023,C0026,Sr(a). Celia Bahena,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,155,467.92
+30/08/2021,C0026,Sr(a). Celia Bahena,Minorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,342,163.53
+01/09/2020,C0026,Sr(a). Celia Bahena,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,95,365.73
+09/05/2023,C0025,Mario Amador,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,396,670.06
+10/08/2018,C0025,Mario Amador,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,279,494.07
+02/02/2018,C0025,Mario Amador,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,382,111.6
+07/06/2024,C0025,Mario Amador,Minorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,-326,378.16
+24/02/2020,C0025,Mario Amador,Minorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,44,1465.34
+07/09/2019,C0025,Mario Amador,Minorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,155,421.96
+12/11/2019,C0025,Mario Amador,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,362,441.31
+01/06/2018,C0025,Mario Amador,Minorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,257,468.49
+28/04/2018,C0025,Mario Amador,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,167,1435.71
+16/07/2023,C0024,Asunción Arroyo,Minorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,426,115.91
+28/09/2020,C0024,Asunción Arroyo,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,240,995.81
+07/09/2019,C0024,Asunción Arroyo,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,488,619.81
+04/08/2020,C0024,Asunción Arroyo,Minorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,245,894.58
+28/07/2024,C0024,Asunción Arroyo,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,468,1259.9
+05/12/2018,C0024,Asunción Arroyo,Minorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,337,566.92
+15/07/2019,C0024,Asunción Arroyo,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,181,409.38
+01/08/2021,C0024,Asunción Arroyo,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,326,1315.66
+09/06/2022,C0024,Asunción Arroyo,Minorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,199,1017.78
+26/08/2023,C0024,Asunción Arroyo,Minorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Ninguna,S0004,Sucursal Oeste,Occidente,Huehuetenango,254,257.25
+18/10/2024,C0023,Amanda Esquivel,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,351,1223.89
+01/06/2020,C0023,Amanda Esquivel,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,313,598.06
+02/03/2024,C0023,Amanda Esquivel,Minorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,313,268.47
+28/09/2018,C0023,Amanda Esquivel,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,314,1426.19
+28/06/2018,C0023,Amanda Esquivel,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,37,1344.19
+19/03/2023,C0023,Amanda Esquivel,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,22,1490.75
+23/12/2024,C0023,Amanda Esquivel,Minorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,79,464.59
+18/05/2024,C0023,Amanda Esquivel,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,248,1492.45
+05/02/2021,C0023,Amanda Esquivel,Minorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,221,785.92
+15/06/2019,C0023,Amanda Esquivel,Minorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,315,579.73
+15/03/2024,C0023,Amanda Esquivel,Minorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,77,25.33
+27/07/2020,C0023,Amanda Esquivel,Minorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,181,1130.65
+05/05/2018,C0022,Alberto Carlos Peña,Minorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,443,1176.78
+12/05/2024,C0022,Alberto Carlos Peña,Minorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,261,167.85
+02/08/2023,C0022,Alberto Carlos Peña,Minorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,28,968.76
+01/06/2020,C0022,Alberto Carlos Peña,Minorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,307,387.57
+15/02/2023,C0022,Alberto Carlos Peña,Minorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,390,246.48
+23/09/2023,C0022,Alberto Carlos Peña,Minorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,251,1047.22
+13/04/2024,C0022,Alberto Carlos Peña,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,381,907.99
+23/08/2021,C0021,Ing. Flavio Colunga,Minorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,426,294.8
+30/04/2018,C0021,Ing. Flavio Colunga,Minorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,216,909.14
+18/10/2022,C0021,Ing. Flavio Colunga,Minorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,21,670.66
+07/07/2018,C0021,Ing. Flavio Colunga,Minorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,142,314.53
+16/10/2019,C0021,Ing. Flavio Colunga,Minorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,325,435.62
+17/08/2021,C0021,Ing. Flavio Colunga,Minorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,332,1355.93
+08/10/2019,C0021,Ing. Flavio Colunga,Minorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,345,452.9
+21/05/2021,C0021,Ing. Flavio Colunga,Minorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,385,123.53
+27/12/2018,C0020,Jorge Luis Montez Terán,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,491,940.07
+14/12/2024,C0020,Jorge Luis Montez Terán,Mayorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,264,1065.79
+19/03/2019,C0020,Jorge Luis Montez Terán,Mayorista,V0001,Renato de León,AC00002,CERVEZA HOFBRAU MUNCHEN,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,28,356.34
+20/11/2024,C0020,Jorge Luis Montez Terán,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,441,682.53
+05/06/2021,C0020,Jorge Luis Montez Terán,Mayorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,196,318.24
+23/08/2023,C0020,Jorge Luis Montez Terán,Mayorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,473,1300.17
+02/01/2020,C0020,Jorge Luis Montez Terán,Mayorista,V0010,Lic. Benito Collazo,AC00005,SERVILLETAS FAMILIA MAX,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,156,737.93
+28/09/2020,C0019,María Luisa María Vaca Echeverría,Mayorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,183,257.51
+20/02/2021,C0019,María Luisa María Vaca Echeverría,Mayorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,191,1171.53
+09/06/2020,C0019,María Luisa María Vaca Echeverría,Mayorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,421,472.63
+22/07/2018,C0019,María Luisa María Vaca Echeverría,Mayorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,455,823.47
+23/03/2019,C0019,María Luisa María Vaca Echeverría,Mayorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,276,1429.63
+06/12/2020,C0019,María Luisa María Vaca Echeverría,Mayorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,-150,562.71
+29/11/2021,C0019,María Luisa María Vaca Echeverría,Mayorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,40,33.53
+19/05/2021,C0019,María Luisa María Vaca Echeverría,Mayorista,V0006,Ing. Adalberto Iglesias,AC00005,SERVILLETAS FAMILIA MAX,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,308,1164.7
+05/12/2022,C0019,María Luisa María Vaca Echeverría,Mayorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,460,696.11
+03/08/2022,C0019,María Luisa María Vaca Echeverría,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,11,278.61
+05/09/2024,C0019,María Luisa María Vaca Echeverría,Mayorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,88,774.6
+31/07/2018,C0019,María Luisa María Vaca Echeverría,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,107,1299.27
+18/11/2021,C0018,Gustavo Lucas Monroy,Mayorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,431,634.59
+27/08/2022,C0018,Gustavo Lucas Monroy,Mayorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,9,1321.25
+19/06/2022,C0018,Gustavo Lucas Monroy,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,231,857.13
+01/01/2020,C0018,Gustavo Lucas Monroy,Mayorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,240,540.98
+25/05/2019,C0018,Gustavo Lucas Monroy,Mayorista,V0004,Santiago Fabiola Naranjo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,66,937.02
+07/11/2023,C0018,Gustavo Lucas Monroy,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,107,998.15
+08/09/2020,C0017,Wendolin Mena Montoya,Mayorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,366,1299.24
+10/06/2020,C0017,Wendolin Mena Montoya,Mayorista,V0001,Renato de León,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,1,1059.48
+08/05/2019,C0017,Wendolin Mena Montoya,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,108,208.37
+04/09/2020,C0017,Wendolin Mena Montoya,Mayorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,43,1271.72
+28/04/2019,C0017,Wendolin Mena Montoya,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,313,-944.89
+05/11/2023,C0017,Wendolin Mena Montoya,Mayorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,258,1214.13
+17/09/2021,C0017,Wendolin Mena Montoya,Mayorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,429,836.06
+02/06/2018,C0017,Wendolin Mena Montoya,Mayorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,445,936.41
+16/10/2020,C0017,Wendolin Mena Montoya,Mayorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,311,401.51
+03/02/2024,C0017,Wendolin Mena Montoya,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,259,1087.34
+11/07/Z022,C0017,Wendolin Mena Montoya,Mayorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,228,961.66
+02/05/2024,C0017,Wendolin Mena Montoya,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,335,1440.48
+04/07/2021,C0016,Ing. Sessa Durán,Mayorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,337,1149.33
+08/10/2023,C0016,Ing. Sessa Durán,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,232,937.11
+06/05/2024,C0016,Ing. Sessa Durán,Mayorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,465,1036.45
+10/07/2019,C0016,Ing. Sessa Durán,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,298,728.52
+30/03/2021,C0016,Ing. Sessa Durán,Mayorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,-227,697.59
+02/01/2018,C0016,Ing. Sessa Durán,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,308,196.58
+03/07/2020,C0016,Ing. Sessa Durán,Mayorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,161,1336.77
+30/10/2018,C0016,Ing. Sessa Durán,Mayorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,171,307.02
+28/07/2022,C0016,Ing. Sessa Durán,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,47,1196.38
+23/11/2020,C0016,Ing. Sessa Durán,Mayorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,3,838.76
+08/11/2023,C0016,Ing. Sessa Durán,Mayorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,335,254.4
+15/01/2020,C0016,Ing. Sessa Durán,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,181,538.03
+Z6/07/2018,C0016,Ing. Sessa Durán,Mayorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,115,86.03
+12/02/2024,C0016,Ing. Sessa Durán,Mayorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,444,558.05
+03/11/2023,C0016,Ing. Sessa Durán,Mayorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,456,905.0
+17/03/2020,C0015,Pedro Verdugo Zambrano,Mayorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,244,462.53
+19/10/2021,C0015,Pedro Verdugo Zambrano,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,267,216.83
+30/07/2021,C0015,Pedro Verdugo Zambrano,Mayorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,350,380.82
+21/01/2020,C0015,Pedro Verdugo Zambrano,Mayorista,V0006,Ing. Adalberto Iglesias,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,249,700.12
+16/05/2018,C0015,Pedro Verdugo Zambrano,Mayorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,395,139.14
+12/11/2022,C0015,Pedro Verdugo Zambrano,Mayorista,V0003,Serafín Carvajal,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,53,1435.35
+11/01/2022,C0015,Pedro Verdugo Zambrano,Mayorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,123,112.78
+03/08/2018,C0015,Pedro Verdugo Zambrano,Mayorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,186,133.34
+28/05/2019,C0015,Pedro Verdugo Zambrano,Mayorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,321,1207.68
+27/11/2018,C0015,Pedro Verdugo Zambrano,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,301,494.64
+11/11/2020,C0014,Dr. Carolina Arguello,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,406,463.65
+17/09/2021,C0014,Dr. Carolina Arguello,Mayorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,315,970.36
+12/02/2019,C0014,Dr. Carolina Arguello,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,33,1209.61
+08/10/2022,C0014,Dr. Carolina Arguello,Mayorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,86,950.44
+09/02/2018,C0014,Dr. Carolina Arguello,Mayorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,472,20.49
+12/07/2020,C0014,Dr. Carolina Arguello,Mayorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,294,1340.61
+01/11/2023,C0014,Dr. Carolina Arguello,Mayorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,482,334.08
+17/02/2021,C0014,Dr. Carolina Arguello,Mayorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,362,1108.25
+10/05/2024,C0014,Dr. Carolina Arguello,Mayorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,304,57.4
+14/04/2020,C0013,Ana Robles,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,238,1158.94
+05/06/2020,C0013,Ana Robles,Mayorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,457,342.68
+06/05/2024,C0013,Ana Robles,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,188,1051.73
+01/02/2022,C0013,Ana Robles,Mayorista,V0006,Ing. Adalberto Iglesias,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,86,928.02
+03/07/2021,C0013,Ana Robles,Mayorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,131,884.57
+15/09/2020,C0013,Ana Robles,Mayorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,63,1275.16
+11/05/2022,C0013,Ana Robles,Mayorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,301,300.83
+29/06/2022,C0013,Ana Robles,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,61,1470.71
+18/04/2021,C0013,Ana Robles,Mayorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,401,1389.57
+04/05/2018,C0013,Ana Robles,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,316,1399.76
+20/01/2024,C0013,Ana Robles,Mayorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,13,1251.6
+10/10/2023,C0013,Ana Robles,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,497,679.05
+28/07/2024,C0013,Ana Robles,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,205,1163.29
+19/09/2022,C0012,Alfonso Urrutia Tafoya,Mayorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,464,757.58
+29/03/2022,C0012,Alfonso Urrutia Tafoya,Mayorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,83,1059.41
+05/10/2020,C0012,Alfonso Urrutia Tafoya,Mayorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,309,913.54
+27/08/2021,C0012,Alfonso Urrutia Tafoya,Mayorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,35,856.15
+05/11/2023,C0012,Alfonso Urrutia Tafoya,Mayorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,12,56.42
+13/10/2019,C0012,Alfonso Urrutia Tafoya,Mayorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,110,677.55
+16/09/2024,C0012,Alfonso Urrutia Tafoya,Mayorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,138,1126.86
+22/11/2022,C0012,Alfonso Urrutia Tafoya,Mayorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,445,1200.17
+22/12/2022,C0012,Alfonso Urrutia Tafoya,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,87,1402.07
+06/09/2020,C0012,Alfonso Urrutia Tafoya,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,496,540.28
+28/04/2022,C0012,Alfonso Urrutia Tafoya,Mayorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,393,-266.46
+28/08/2020,C0012,Alfonso Urrutia Tafoya,Mayorista,V0003,Serafín Carvajal,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,3,723.86
+25/05/2024,C0011,Lic. Luz Carreón,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,87,44.27
+10/11/2018,C0011,Lic. Luz Carreón,Mayorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,462,1433.31
+29/12/2024,C0011,Lic. Luz Carreón,Mayorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,434,897.11
+09/10/2019,C0011,Lic. Luz Carreón,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,499,1044.14
+01/06/2022,C0011,Lic. Luz Carreón,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,118,882.18
+14/04/2022,C0011,Lic. Luz Carreón,Mayorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,108,666.44
+05/11/2020,C0011,Lic. Luz Carreón,Mayorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,295,100.26
+03/04/2021,C0011,Lic. Luz Carreón,Mayorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,394,1082.05
+05/10/2018,C0011,Lic. Luz Carreón,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,343,1341.21
+26/05/2021,C0011,Lic. Luz Carreón,Mayorista,V0007,Eugenio Correa,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,204,760.75
+22/02/2021,C0011,Lic. Luz Carreón,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,412,1213.27
+20/03/2022,C0011,Lic. Luz Carreón,Mayorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,150,1130.02
+30/09/2024,C0010,Sara Guevara,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,357,234.71
+04/08/2024,C0010,Sara Guevara,Mayorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,73,446.51
+07/07/2018,C0010,Sara Guevara,Mayorista,V0007,Eugenio Correa,AC00003,QUESO CAMEMBERT,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,439,303.69
+14/03/2024,C0010,Sara Guevara,Mayorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,289,991.12
+23/05/2018,C0010,Sara Guevara,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,390,314.97
+02/04/2019,C0010,Sara Guevara,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,288,1172.37
+15/08/2020,C0010,Sara Guevara,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,459,79.37
+20/03/2019,C0010,Sara Guevara,Mayorista,V0007,Eugenio Correa,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,179,706.83
+30/10/2019,C0010,Sara Guevara,Mayorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,362,1106.8
+06/03/2021,C0010,Sara Guevara,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,230,1182.66
+06/04/2022,C0010,Sara Guevara,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,463,642.2
+24/07/2018,C0009,Cristian Regalado Negrete,Mayorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,402,1470.6
+Z2/08/2024,C0009,Cristian Regalado Negrete,Mayorista,V0006,Ing. Adalberto Iglesias,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,396,259.02
+08/06/2018,C0009,Cristian Regalado Negrete,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,426,222.38
+27/11/2023,C0009,Cristian Regalado Negrete,Mayorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,481,318.27
+28/02/2018,C0009,Cristian Regalado Negrete,Mayorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,202,840.75
+09/12/2019,C0009,Cristian Regalado Negrete,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,133,1305.55
+06/02/2018,C0009,Cristian Regalado Negrete,Mayorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,275,309.68
+11/01/2024,C0008,Ing. Nadia Escobedo,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,50,931.69
+10/11/2024,C0008,Ing. Nadia Escobedo,Mayorista,V0001,Renato de León,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,50,328.44
+26/12/2019,C0008,Ing. Nadia Escobedo,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,95,1233.1
+11/05/2021,C0008,Ing. Nadia Escobedo,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,227,1148.58
+04/05/2022,C0008,Ing. Nadia Escobedo,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,178,1471.87
+31/12/2018,C0008,Ing. Nadia Escobedo,Mayorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,93,434.66
+25/09/2022,C0008,Ing. Nadia Escobedo,Mayorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,440,1486.47
+05/10/2018,C0007,Gabino Perales Casas,Mayorista,V0001,Renato de León,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,55,584.65
+30/12/2024,C0007,Gabino Perales Casas,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,62,992.51
+07/09/2018,C0007,Gabino Perales Casas,Mayorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,296,219.28
+23/03/2022,C0007,Gabino Perales Casas,Mayorista,V0008,Mtro. Hugo Ruelas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,192,1455.05
+25/05/2021,C0007,Gabino Perales Casas,Mayorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,85,309.93
+15/03/2022,C0007,Gabino Perales Casas,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,26,978.2
+19/09/2021,C0007,Gabino Perales Casas,Mayorista,V0009,Reynaldo Mejía Guevara,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,341,715.46
+12/06/2023,C0006,Alicia Fuentes Garza,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,490,1268.7
+20/02/2024,C0006,Alicia Fuentes Garza,Mayorista,V0009,Reynaldo Mejía Guevara,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,13,611.42
+31/03/2018,C0006,Alicia Fuentes Garza,Mayorista,V0008,Mtro. Hugo Ruelas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,290,686.78
+26/07/2020,C0006,Alicia Fuentes Garza,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,342,1375.7
+10/01/2020,C0006,Alicia Fuentes Garza,Mayorista,V0004,Santiago Fabiola Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,457,1317.46
+27/08/2018,C0006,Alicia Fuentes Garza,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,439,935.23
+27/05/2018,C0006,Alicia Fuentes Garza,Mayorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,232,269.14
+02/02/2021,C0006,Alicia Fuentes Garza,Mayorista,V0001,Renato de León,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,49,1247.33
+08/04/2021,C0006,Alicia Fuentes Garza,Mayorista,V0010,Lic. Benito Collazo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,408,690.72
+14/01/2019,C0006,Alicia Fuentes Garza,Mayorista,V0010,Lic. Benito Collazo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,89,958.42
+12/12/2019,C0005,Ana Ofelia Serna,Mayorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,493,1040.39
+20/09/2019,C0005,Ana Ofelia Serna,Mayorista,V0007,Eugenio Correa,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,404,1031.73
+04/04/2024,C0005,Ana Ofelia Serna,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,23,113.38
+15/09/2020,C0005,Ana Ofelia Serna,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,15,398.72
+02/06/2018,C0005,Ana Ofelia Serna,Mayorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,267,1488.01
+15/03/2018,C0005,Ana Ofelia Serna,Mayorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,442,363.06
+21/02/2023,C0005,Ana Ofelia Serna,Mayorista,V0009,Reynaldo Mejía Guevara,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,203,1251.53
+24/12/2020,C0005,Ana Ofelia Serna,Mayorista,V0008,Mtro. Hugo Ruelas,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,488,184.64
+05/01/2019,C0005,Ana Ofelia Serna,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,154,1243.36
+06/06/2021,C0005,Ana Ofelia Serna,Mayorista,V0007,Eugenio Correa,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,490,129.81
+02/10/2019,C0005,Ana Ofelia Serna,Mayorista,V0010,Lic. Benito Collazo,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,447,23.27
+03/08/2024,C0004,Patricio Almonte,Mayorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,487,905.09
+27/12/2020,C0004,Patricio Almonte,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0003,Sucursal Este,Nororiente,Zacapa,490,966.22
+22/04/2018,C0004,Patricio Almonte,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,287,1487.07
+13/08/2019,C0004,Patricio Almonte,Mayorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,101,259.26
+03/01/2019,C0004,Patricio Almonte,Mayorista,V0003,Serafín Carvajal,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,157,-1415.88
+22/05/2021,C0004,Patricio Almonte,Mayorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,146,320.75
+27/07/2021,C0004,Patricio Almonte,Mayorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,189,686.1
+05/12/2018,C0004,Patricio Almonte,Mayorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,381,1105.24
+08/04/2022,C0004,Patricio Almonte,Mayorista,V0010,Lic. Benito Collazo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,185,321.37
+04/09/2019,C0004,Patricio Almonte,Mayorista,V0008,Mtro. Hugo Ruelas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,6,-877.1
+15/10/2022,C0004,Patricio Almonte,Mayorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0004,Sucursal Oeste,Occidente,Huehuetenango,194,212.83
+24/08/2023,C0004,Patricio Almonte,Mayorista,V0010,Lic. Benito Collazo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,401,1097.9
+14/11/2018,C0004,Patricio Almonte,Mayorista,V0006,Ing. Adalberto Iglesias,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,477,237.84
+17/03/2019,C0004,Patricio Almonte,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,4,740.22
+18/09/2024,C0004,Patricio Almonte,Mayorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,366,447.46
+17/08/2024,C0004,Patricio Almonte,Mayorista,V0010,Lic. Benito Collazo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,300,32.92
+05/06/2018,C0003,Silvia Santacruz,Mayorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,166,865.22
+05/09/2021,C0003,Silvia Santacruz,Mayorista,V0008,Mtro. Hugo Ruelas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,432,598.54
+03/04/2022,C0003,Silvia Santacruz,Mayorista,V0001,Renato de León,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,333,230.55
+04/10/2020,C0003,Silvia Santacruz,Mayorista,V0004,Santiago Fabiola Naranjo,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,44,1213.28
+21/05/2022,C0003,Silvia Santacruz,Mayorista,V0009,Reynaldo Mejía Guevara,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0001,Sucursal Norte,Metropolitana,Guatemala,127,1148.02
+10/05/2022,C0003,Silvia Santacruz,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,274,1116.05
+18/10/2018,C0003,Silvia Santacruz,Mayorista,V0003,Serafín Carvajal,AC00003,QUESO CAMEMBERT,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,393,1031.39
+02/10/2018,C0003,Silvia Santacruz,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,55,225.63
+04/06/2020,C0003,Silvia Santacruz,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,468,538.76
+19/02/2018,C0003,Silvia Santacruz,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,491,1282.35
+26/08/2023,C0002,Sr(a). Eduardo Arias,Mayorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,113,1438.74
+21/06/2022,C0002,Sr(a). Eduardo Arias,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0001,Sucursal Norte,Metropolitana,Guatemala,251,967.49
+13/11/2023,C0002,Sr(a). Eduardo Arias,Mayorista,V0004,Santiago Fabiola Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,91,-395.14
+17/11/2022,C0002,Sr(a). Eduardo Arias,Mayorista,V0001,Renato de León,AC00002,CERVEZA HOFBRAU MUNCHEN,ZENU,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,423,895.71
+02/08/2019,C0002,Sr(a). Eduardo Arias,Mayorista,V0006,Ing. Adalberto Iglesias,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,179,1355.29
+25/01/2020,C0002,Sr(a). Eduardo Arias,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,395,821.06
+31/12/2019,C0002,Sr(a). Eduardo Arias,Mayorista,V0008,Mtro. Hugo Ruelas,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,3,885.49
+02/01/2024,C0001,Dr. Bernabé Ibarra,Mayorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,214,1044.85
+05/10/2024,C0001,Dr. Bernabé Ibarra,Mayorista,V0007,Eugenio Correa,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0003,Sucursal Este,Nororiente,Zacapa,292,757.98
+01/07/2020,C0001,Dr. Bernabé Ibarra,Mayorista,V0004,Santiago Fabiola Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0001,Sucursal Norte,Metropolitana,Guatemala,479,702.64
+16/11/2024,C0001,Dr. Bernabé Ibarra,Mayorista,V0004,Santiago Fabiola Naranjo,AC00001,Gaseosa Postobon Uva,POSTOBON,Bebidas,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,146,74.78
+16/09/2020,C0001,Dr. Bernabé Ibarra,Mayorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,475,195.57
+11/05/2024,C0001,Dr. Bernabé Ibarra,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,19,1345.31
+26/07/2018,C0001,Dr. Bernabé Ibarra,Mayorista,V0006,Ing. Adalberto Iglesias,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,26,388.38
+02/04/2021,C0001,Dr. Bernabé Ibarra,Mayorista,V0005,Emiliano Olivia Villarreal Dueñas,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,61,522.06
+18/09/2021,C0001,Dr. Bernabé Ibarra,Mayorista,V0007,Eugenio Correa,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0004,Sucursal Oeste,Occidente,Huehuetenango,442,587.19
+28/09/2023, C0081 ,Asunción Aldo Corrales Cadena,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,76,718.87
+28/11/2024, C0068 ,Luis Manuel Rael Alvarez,Mayorista,V0003,Serafín Carvajal,AC00004,Vino Gato Blanco,CREM HELADO,Vinos y Licores,S0004,Sucursal Oeste,Occidente,Huehuetenango,8,1008.09
+27/10/2021, C0059 ,Eloisa Montez Valdés,Minorista,V0002,Leonel Georgina Ornelas Naranjo,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0003,Sucursal Este,Nororiente,Zacapa,333,941.51
+04/11/2023, C0041 ,Pascual Luz Madrigal Granado,Minorista,V0009,Reynaldo Mejía Guevara,AC00006,Vino espumoso Rothberg,SINFONIA,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,486,957.23
+14/02/2019, C0039 ,Wilfrido Casillas,Minorista,V0009,Reynaldo Mejía Guevara,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0002,Sucursal Sur,Suroccidente,Quetzaltenango,58,570.71
+24/03/2024, C0035 ,Anel Ricardo Palomino Montes,Minorista,V0003,Serafín Carvajal,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,274,368.75
+24/04/2024, C0014 ,Dr. Carolina Arguello,Mayorista,V0006,Ing. Adalberto Iglesias,AC00002,Cerveza Hofbrau Munchen,ZENU,Vinos y Licores,S0001,Sucursal Norte,Metropolitana,Guatemala,206,986.18
+07/11/2021, C0012 ,Alfonso Urrutia Tafoya,Mayorista,V0003,Serafín Carvajal,AC00003,Queso Camembert,MONTICELLO,Charcutería,S0004,Sucursal Oeste,Occidente,Huehuetenango,203,260.53
+03/02/2024, C0010 ,Sara Guevara,Mayorista,V0001,Renato de León,AC00005,Servilletas Familia Max,ZORBA,Limpieza de cocina,S0003,Sucursal Este,Nororiente,Zacapa,497,718.64

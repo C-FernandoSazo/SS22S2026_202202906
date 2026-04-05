@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cesar\\Desktop\\Universidad\\2026\\Seminario de Sistemas 2\\SS22S2026_202202906\\Proyecto1\\Ssis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C25FAEEC-4D9D-70A2-3EDF-859A18C60EE8}|Ssis.dtproj|C:\\Users\\Cesar\\Desktop\\Universidad\\2026\\Seminario de Sistemas 2\\SS22S2026_202202906\\Proyecto1\\Ssis\\Package.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{C25FAEEC-4D9D-70A2-3EDF-859A18C60EE8}|Ssis.dtproj|solutionrelative:Package.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Package.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Cesar\\Desktop\\Universidad\\2026\\Seminario de Sistemas 2\\SS22S2026_202202906\\Proyecto1\\Ssis\\Package.dtsx",
+              "RelativeDocumentMoniker": "Package.dtsx",
+              "ToolTip": "C:\\Users\\Cesar\\Desktop\\Universidad\\2026\\Seminario de Sistemas 2\\SS22S2026_202202906\\Proyecto1\\Ssis\\Package.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "Package.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALRSURBVDhPjZS7bxNZGMV/kxliMkmMBXEIr8VAYCWDdyUQogAJQSQKgrQU2yCKbSiWkr8AUYBETUNFgZSttlgkOqRltUCkldIQB1MQxxnn5djYnvFz3pciMBk/YDnSJ917v3uOzr3n6koADx89XThwKJHkG7Adl7JurGv5tXt/PL7/Z6W0Ue3YIIRQvoxPJxNMxGMd/TC0tRLP/5mLv01n7k5d/23wv7\u002BfPctn368GGyRJGvgyVoci7BpVv1rqUITRkeEdv1yd2u8J5ffkmYu/TiZPHw3EgEDse\u002BC6HsVSmXK5etKX1ZtKZPhcuN8htlk1mc8ZQZm2h1ZsMZ8zWCy0qTY9ssurjI3twbSsM7V640SYH9wZQFqr8\u002BJtGeSt5TvXhnidqTCfb\u002BJ6HvLgXq5PT1Grt3n5apbFMLnbGYCIqLgTR3AnjoCyJSqGY3DoR\u002BKps9yYPk90RO2mQT8xyWqhFHIohRy4ztZaU0cp5JBKq7QcEN2kz\u002Bg4ZioRZTwWCeYxVeFCcjepRBTfByENULfB88OsbXQ42xuL8FMiGtTOQZnD4yrJH6JMHoyyLz6MbgkYkEGSwlToFuuXpueD5ULDFugW6Cb4kgL8j1haqzPz7wYzb0rMvClRbXmYLtRtgWFB1QTdAtfzQfTeXE8A4TRbQqFmC3QTKibopqBmClzHoV8MPWLhNFttZ8uRBZU2FA2HTHqJtdYoB1JXmL714PalW0/SHLv9F/3SHItGMF1ou4CsYFhgmFCzoekIzLbN9Nn9SAhKVXNcYWT85awmEXb2QSug5Vcw60XsRhG3WURbypFfylLKZ2msZ3HKKwBMxAbZo8rIvodru4EZhc9/1ezcAka9ETT6QlGR4z\u002Bz8bGFYZi8z\u002BmsbDa32wB5bXlxea0o1jc2w9QeDI2ORVKXj0/OZXw\u002BVtosrtbQCtsGeh/Lt7BzX5Lk3QWkrhfbXn9H5t6pT6alXsAFY\u002BKkAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T16:37:44.527Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
