@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-6HD68SB</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFvAOuDSH6kaCH54BeeF7qgAAAAACAAAAAAAQZgAAAAEAACAAAACPOGivdZaOYo+/oYkN/to81k2ca92F8cGjm5k+N98XfwAAAAAOgAAAAAIAACAAAADBKeD7xmPtlcGDsKHa1Hvi94ht8cVTtntF3KxxdM06MZAAAADWvz/yZ2Q2WMf4dPTns4HsHwKL/HCK6lKklQoi4LwXg0ehe90ZfeD/ohIqsLfg6t2Ee4RbF6DaTR0K/MWsJcWBfzM/epz5+LgsOYbT72VnPoLM85HQ8LRB6fpblCinY/BVdVWzDbalnc+BnHBHncOcCg4SBK/v6V6/D96Q/QtCKN6Gwb33KRo7PAAcnLfxq3ZAAAAAln09osg+Rlfab9yah9MTVUWzRIgaIYK78D6gKuMe3s0MAPEqs4BEFwj/0MYsS/Q3yN/YQCozZmVrv4zzhlWw6w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFvAOuDSH6kaCH54BeeF7qgAAAAACAAAAAAAQZgAAAAEAACAAAADDrA06sH3yGtQ9Tp3kc/pqTx4u1gi9WvBHnErkrpngNgAAAAAOgAAAAAIAACAAAABZ2Nklqys0ou7PgQK+9p4meXmq8gTQ6cyekWiBh4jmOJAAAAAd8Y5A8XfxJMCU+Aaan/c7xk4cMVAUaX6ef/LfqEphHHljscEidy6M1keiQU9ndHy6GkegFl4lV4I8cHA7oijYufEAvzU6icOdMhnebIDwIDIkEEH1fmTJHX/lfeQqFZ1iZ02PXtedfwCtRbjUQTSxjztPvcHIGt7G8fQQUr3ggqSeuej2WRFDUBwtqnAF/91AAAAAkgs/YcIgT6J6vgWyXU+qK3y9xJVEsynVsGCizlh2mbq1MoGZIpaPLHbC8Okky+FWjy2IN5qe4iKWtc5V+kEOtQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -43,10 +43,10 @@
                 <SSIS:Property SSIS:Name="Name">ETL_Compras</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">25</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">31</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{C50D440C-9696-476F-BBCD-B0FD4EEFBEC7}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{493C8A26-BA8F-46C6-8B3D-6A91CAE18E11}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -79,7 +79,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DW_SGFood;Provider=MSOLEDBSQL19.1;Integrated Security=SSPI;Application Name=SSIS-ETL_Compras-{CF70AE6D-99B5-4FDA-9CE5-1A73E82E5E85}(localdb)\MSSQLLocalDB.DW_SGFood;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=DESKTOP-6HD68SB;User ID=;Initial Catalog=DW_SGFood;Provider=MSOLEDBSQL19.1;Persist Security Info=False;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-ETL_Compras-{CF70AE6D-99B5-4FDA-9CE5-1A73E82E5E85}(localdb)\MSSQLLocalDB.DW_SGFood;Initial File Name=;Trust Server Certificate=True;Server SPN=;Authentication=;Access Token=;Host Name In Certificate=;Server Certificate=;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -183,7 +183,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">(localdb)\MSSQLLocalDB</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">DESKTOP-6HD68SB</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -198,6 +198,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -406,10 +408,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">7</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{9F3E5780-3282-455D-A191-0E4DBD9003D9}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{6BAD0A32-D882-4C66-B92B-B9747453EB4A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -442,7 +444,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DW_SGFood;Provider=MSOLEDBSQL19.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{2931ECDA-16C6-41C6-AEE7-128B35680F94}(localdb)\MSSQLLocalDB.DW_SGFood;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=DESKTOP-6HD68SB;User ID=;Initial Catalog=DW_SGFood;Provider=MSOLEDBSQL19.1;Persist Security Info=False;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package1-{2931ECDA-16C6-41C6-AEE7-128B35680F94}(localdb)\MSSQLLocalDB.DW_SGFood;Initial File Name=;Trust Server Certificate=True;Server SPN=;Authentication=;Access Token=;Host Name In Certificate=;Server Certificate=;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -546,7 +548,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">(localdb)\MSSQLLocalDB</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">DESKTOP-6HD68SB</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -561,6 +563,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

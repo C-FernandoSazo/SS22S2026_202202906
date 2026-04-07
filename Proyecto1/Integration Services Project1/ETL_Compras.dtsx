@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="ETL_Compras"
   DTS:PackageType="5"
-  DTS:VersionBuild="25"
-  DTS:VersionGUID="{C50D440C-9696-476F-BBCD-B0FD4EEFBEC7}">
+  DTS:VersionBuild="32"
+  DTS:VersionGUID="{74CBA19B-4DC0-4298-B2C9-95EE5465BD38}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,7 +25,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DW_SGFood;Provider=MSOLEDBSQL19.1;Integrated Security=SSPI;Application Name=SSIS-ETL_Compras-{CF70AE6D-99B5-4FDA-9CE5-1A73E82E5E85}(localdb)\MSSQLLocalDB.DW_SGFood;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-6HD68SB;User ID=;Initial Catalog=DW_SGFood;Provider=MSOLEDBSQL19.1;Persist Security Info=False;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-ETL_Compras-{CF70AE6D-99B5-4FDA-9CE5-1A73E82E5E85}(localdb)\MSSQLLocalDB.DW_SGFood;Initial File Name=;Trust Server Certificate=True;Server SPN=;Authentication=;Access Token=;Host Name In Certificate=;Server Certificate=;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -3598,7 +3598,7 @@ where [refTable].[CodProveedor] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
-                  name="ParameterMap">#{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CodProveedor]};</property>
+                  name="ParameterMap">#{Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[CodProveedorLimpio]};</property>
                 <property
                   dataType="System.Int32"
                   description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -3622,11 +3622,11 @@ where [refTable].[CodProveedor] = ?</property>
                   name="Entrada de búsqueda">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Cargar FactCompras\Búsqueda 2.Inputs[Entrada de búsqueda].Columns[CodProveedor]"
+                      refId="Package\Cargar FactCompras\Búsqueda 2.Inputs[Entrada de búsqueda].Columns[CodProveedorLimpio]"
                       cachedDataType="wstr"
                       cachedLength="10"
-                      cachedName="CodProveedor"
-                      lineageId="Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CodProveedor]">
+                      cachedName="CodProveedorLimpio"
+                      lineageId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[CodProveedorLimpio]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -3869,6 +3869,12 @@ where [refTable].[TiempoKey] = ?</property>
                       cachedDataType="decimal"
                       cachedName="CostoUnitario"
                       lineageId="Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CostoUnitario]" />
+                    <inputColumn
+                      refId="Package\Cargar FactCompras\Columna derivada.Inputs[Entrada de columna derivada].Columns[CodProveedor]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="CodProveedor"
+                      lineageId="Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CodProveedor]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -3926,6 +3932,29 @@ where [refTable].[TiempoKey] = ?</property>
                           description="Expresión descriptiva de columna derivada"
                           expressionType="Notify"
                           name="FriendlyExpression">(DT_NUMERIC,14,2)(Unidades * CostoUnitario)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[CodProveedorLimpio]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="10"
+                      lineageId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[CodProveedorLimpio]"
+                      name="CodProveedorLimpio"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">[ISNULL](#{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CodProveedor]}) || #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CodProveedor]} == "" ? "P0000" : #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CodProveedor]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(CodProveedor) || CodProveedor == "" ? "P0000" : CodProveedor</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -4800,6 +4829,10 @@ where [refTable].[TiempoKey] = ?</property>
           Id="Package\Cargar DimProducto\Origen de archivo plano"
           TopLeft="212,72" />
         <NodeLayout
+          Size="168,42"
+          Id="Package\Cargar DimProducto\Destino de OLE DB"
+          TopLeft="230,231" />
+        <NodeLayout
           Size="117,42"
           Id="Package\Cargar DimProducto\Ordenar"
           TopLeft="246,142" />
@@ -4825,10 +4858,6 @@ where [refTable].[TiempoKey] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Cargar DimProducto\Destino de OLE DB"
-          TopLeft="230,231" />
         <EdgeLayout
           Id="Package\Cargar DimProducto.Paths[Salida de ordenación]"
           TopLeft="304.5,184">
@@ -4866,6 +4895,19 @@ where [refTable].[TiempoKey] = ?</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar DimProducto\Destino de OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Cargar DimProveedor">
     <LayoutInfo>
@@ -4879,6 +4921,10 @@ where [refTable].[TiempoKey] = ?</property>
           Size="117,42"
           Id="Package\Cargar DimProveedor\Ordenar"
           TopLeft="217,185" />
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Cargar DimProveedor\Destino de OLE DB"
+          TopLeft="196,280" />
         <EdgeLayout
           Id="Package\Cargar DimProveedor.Paths[Salida de origen de archivo plano]"
           TopLeft="278.5,116">
@@ -4901,10 +4947,6 @@ where [refTable].[TiempoKey] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Cargar DimProveedor\Destino de OLE DB"
-          TopLeft="196,280" />
         <EdgeLayout
           Id="Package\Cargar DimProveedor.Paths[Salida de ordenación]"
           TopLeft="277.75,227">
@@ -4930,6 +4972,19 @@ where [refTable].[TiempoKey] = ?</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar DimProveedor\Destino de OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Cargar DimSucursal">
     <LayoutInfo>
@@ -4939,6 +4994,10 @@ where [refTable].[TiempoKey] = ?</property>
           Size="191,42"
           Id="Package\Cargar DimSucursal\Origen de archivo plano"
           TopLeft="186,45" />
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Cargar DimSucursal\Destino de OLE DB"
+          TopLeft="194,239" />
         <NodeLayout
           Size="117,42"
           Id="Package\Cargar DimSucursal\Ordenar"
@@ -4965,10 +5024,6 @@ where [refTable].[TiempoKey] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Cargar DimSucursal\Destino de OLE DB"
-          TopLeft="194,239" />
         <EdgeLayout
           Id="Package\Cargar DimSucursal.Paths[Salida de ordenación]"
           TopLeft="279.75,184">
@@ -4994,19 +5049,56 @@ where [refTable].[TiempoKey] = ?</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar DimSucursal\Destino de OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Cargar FactCompras">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="191,42"
-          Id="Package\Cargar FactCompras\Origen de archivo plano"
-          TopLeft="179,27" />
+          Size="168,42"
+          Id="Package\Cargar FactCompras\Destino de OLE DB"
+          TopLeft="535,630" />
         <NodeLayout
           Size="164,42"
           Id="Package\Cargar FactCompras\Columna derivada"
           TopLeft="182,114" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\Cargar FactCompras\Búsqueda 1"
+          TopLeft="200,317" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\Cargar FactCompras\Búsqueda 3"
+          TopLeft="278.75,587.5" />
+        <NodeLayout
+          Size="191,42"
+          Id="Package\Cargar FactCompras\Origen de archivo plano"
+          TopLeft="179,27" />
+        <NodeLayout
+          Size="125,42"
+          Id="Package\Cargar FactCompras\Búsqueda"
+          TopLeft="200,208" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\Cargar FactCompras\Búsqueda 2"
+          TopLeft="194,405" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Cargar FactCompras\Columna derivada 1"
+          TopLeft="186.25,488.75" />
         <EdgeLayout
           Id="Package\Cargar FactCompras.Paths[Salida de origen de archivo plano]"
           TopLeft="274.5,69">
@@ -5041,170 +5133,6 @@ where [refTable].[TiempoKey] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="125,42"
-          Id="Package\Cargar FactCompras\Búsqueda"
-          TopLeft="200,208" />
-        <EdgeLayout
-          Id="Package\Cargar FactCompras.Paths[Salida de columna derivada]"
-          TopLeft="263.25,156">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,52"
-              Start="0,0"
-              End="0,44.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Cargar FactCompras\Búsqueda 1"
-          TopLeft="200,317" />
-        <EdgeLayout
-          Id="Package\Cargar FactCompras.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="264.75,250">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,67"
-              Start="0,0"
-              End="0,59.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,59.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,23.65234375,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Cargar FactCompras\Búsqueda 2"
-          TopLeft="194,405" />
-        <EdgeLayout
-          Id="Package\Cargar FactCompras.Paths[Salida de entradas coincidentes de búsqueda1]"
-          TopLeft="264,359">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46"
-              Start="0,0"
-              End="0,38.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,13.15234375,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Cargar FactCompras\Columna derivada 1"
-          TopLeft="186.25,488.75" />
-        <EdgeLayout
-          Id="Package\Cargar FactCompras.Paths[Salida de entradas coincidentes de búsqueda2]"
-          TopLeft="261,447">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="11.75,41.75"
-              Start="0,0"
-              End="11.75,34.25">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.875" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.875"
-                    Point2="0,20.875"
-                    Point3="4,20.875" />
-                  <mssgle:LineSegment
-                    End="7.75,20.875" />
-                  <mssgle:CubicBezierSegment
-                    Point1="7.75,20.875"
-                    Point2="11.75,20.875"
-                    Point3="11.75,24.875" />
-                  <mssgle:LineSegment
-                    End="11.75,34.25" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-93.9440234375,25.875,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Cargar FactCompras\Búsqueda 3"
-          TopLeft="278.75,587.5" />
-        <EdgeLayout
-          Id="Package\Cargar FactCompras.Paths[Salida de columna derivada1]"
-          TopLeft="272.75,530.75">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="73,56.75"
-              Start="0,0"
-              End="73,49.25">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.375" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24.375"
-                    Point2="0,28.375"
-                    Point3="4,28.375" />
-                  <mssgle:LineSegment
-                    End="69,28.375" />
-                  <mssgle:CubicBezierSegment
-                    Point1="69,28.375"
-                    Point2="73,28.375"
-                    Point3="73,32.375" />
-                  <mssgle:LineSegment
-                    End="73,49.25" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Cargar FactCompras\Destino de OLE DB"
-          TopLeft="535,630" />
         <EdgeLayout
           Id="Package\Cargar FactCompras.Paths[Salida de entradas coincidentes de búsqueda3]"
           TopLeft="412.75,608.5">
@@ -5241,11 +5169,151 @@ where [refTable].[TiempoKey] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactCompras.Paths[Salida de entradas coincidentes de búsqueda2]"
+          TopLeft="261,447">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="11.75,41.75"
+              Start="0,0"
+              End="11.75,34.25">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.875" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.875"
+                    Point2="0,20.875"
+                    Point3="4,20.875" />
+                  <mssgle:LineSegment
+                    End="7.75,20.875" />
+                  <mssgle:CubicBezierSegment
+                    Point1="7.75,20.875"
+                    Point2="11.75,20.875"
+                    Point3="11.75,24.875" />
+                  <mssgle:LineSegment
+                    End="11.75,34.25" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-93.9440234375,25.875,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactCompras.Paths[Salida de entradas coincidentes de búsqueda1]"
+          TopLeft="264,359">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46"
+              Start="0,0"
+              End="0,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.8190234375,13.15234375,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactCompras.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="264.75,250">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,67"
+              Start="0,0"
+              End="0,59.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,59.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.8190234375,23.65234375,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactCompras.Paths[Salida de columna derivada1]"
+          TopLeft="272.75,530.75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="73,56.75"
+              Start="0,0"
+              End="73,49.25">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.375" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.375"
+                    Point2="0,28.375"
+                    Point3="4,28.375" />
+                  <mssgle:LineSegment
+                    End="69,28.375" />
+                  <mssgle:CubicBezierSegment
+                    Point1="69,28.375"
+                    Point2="73,28.375"
+                    Point3="73,32.375" />
+                  <mssgle:LineSegment
+                    End="73,49.25" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactCompras.Paths[Salida de columna derivada]"
+          TopLeft="263.25,156">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52"
+              Start="0,0"
+              End="0,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Cargar DimProducto\Destino de OLE DB">
+    design-time-name="Package\Cargar FactCompras\Destino de OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5254,55 +5322,6 @@ where [refTable].[TiempoKey] = ?</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar DimSucursal\Destino de OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar DimProveedor\Destino de OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar FactCompras\Búsqueda">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -5312,7 +5331,7 @@ where [refTable].[TiempoKey] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -5322,30 +5341,7 @@ where [refTable].[TiempoKey] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar FactCompras\Búsqueda 2">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5358,7 +5354,7 @@ where [refTable].[TiempoKey] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -5368,7 +5364,7 @@ where [refTable].[TiempoKey] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5376,15 +5372,48 @@ where [refTable].[TiempoKey] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Cargar FactCompras\Destino de OLE DB">
+    design-time-name="Package\Cargar FactCompras\Búsqueda">
     <Properties>
       <Property>
-        <Name>DataSourceViewID</Name>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q2:string">Table</Value>
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar FactCompras\Búsqueda 2">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

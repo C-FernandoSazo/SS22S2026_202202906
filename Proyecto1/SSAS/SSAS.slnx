@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Development" />
+    <Platform Name="Default" />
+  </Configurations>
+  <Project Path="SSAS.dwproj" Type="d2abab84-bf74-430a-b69e-9dc6d40dda17">
+    <Platform Project="?" />
+    <Deploy />
+  </Project>
+</Solution>

@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\Cubo_SGFood.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:Cubo_SGFood.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DW SG Food.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:DW SG Food.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimVendedor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:DimVendedor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimCliente.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:DimCliente.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimProveedor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:DimProveedor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimSucursal.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:DimSucursal.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimProducto.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:DimProducto.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimTiempo.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:DimTiempo.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cubo_SGFood.cube [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\Cubo_SGFood.cube",
+              "RelativeDocumentMoniker": "Cubo_SGFood.cube",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\Cubo_SGFood.cube [Dise\u00F1o]",
+              "RelativeToolTip": "Cubo_SGFood.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-06T20:03:53.561Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DimCliente.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimCliente.dim",
+              "RelativeDocumentMoniker": "DimCliente.dim",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimCliente.dim [Dise\u00F1o]",
+              "RelativeToolTip": "DimCliente.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-06T19:58:47.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DW SG Food.dsv [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DW SG Food.dsv",
+              "RelativeDocumentMoniker": "DW SG Food.dsv",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DW SG Food.dsv [Dise\u00F1o]",
+              "RelativeToolTip": "DW SG Food.dsv [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-06T00:02:36.165Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DimVendedor.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimVendedor.dim",
+              "RelativeDocumentMoniker": "DimVendedor.dim",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimVendedor.dim [Dise\u00F1o]",
+              "RelativeToolTip": "DimVendedor.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-06T19:59:58.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DimProveedor.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimProveedor.dim",
+              "RelativeDocumentMoniker": "DimProveedor.dim",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimProveedor.dim [Dise\u00F1o]",
+              "RelativeToolTip": "DimProveedor.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-06T19:58:02.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DimSucursal.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimSucursal.dim",
+              "RelativeDocumentMoniker": "DimSucursal.dim",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimSucursal.dim [Dise\u00F1o]",
+              "RelativeToolTip": "DimSucursal.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-06T19:57:01.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DimProducto.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimProducto.dim",
+              "RelativeDocumentMoniker": "DimProducto.dim",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimProducto.dim [Dise\u00F1o]",
+              "RelativeToolTip": "DimProducto.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-06T19:54:56.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DimTiempo.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimTiempo.dim",
+              "RelativeDocumentMoniker": "DimTiempo.dim",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimTiempo.dim [Dise\u00F1o]",
+              "RelativeToolTip": "DimTiempo.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-06T19:48:10.004Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
