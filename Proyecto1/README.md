@@ -64,10 +64,12 @@ El proceso ETL fue implementado en SSIS dentro de Visual Studio 2022 usando dos 
 
 ## 4.2 Fuentes de Datos
 
-| Archivo | Descripción | Delimitador | Encoding |
-|---|---|---|---|
-| `compras.csv` | Transacciones de compras a proveedores | `,` | UTF-8 (65001) |
-| `ventas.csv` | Transacciones de ventas a clientes | `,` | UTF-8 (65001) |
+El enunciado describe fuentes con delimitador `|` y extensiones `.comp` y `.vent`. Los archivos provistos para este proyecto son archivos CSV con delimitador coma, los cuales contienen la misma estructura de datos descrita. El ETL fue implementado conforme a los archivos realmente proporcionados.
+
+| Archivo | Descripción | Delimitador | Encoding | Registros |
+|---|---|---|---|---|
+| `compras.csv` | Transacciones de compras a proveedores | `,` | UTF-8 (65001) | 1,000 |
+| `ventas.csv` | Transacciones de ventas a clientes | `,` | UTF-8 (65001) | 1,000 |
 
 ## 4.3 Problemas de Calidad de Datos Identificados
 
@@ -140,7 +142,7 @@ El componente **Ordenar** tiene habilitada la opción "Quitar filas con valores 
 | `FechaLimpia` | `REPLACE([Fecha],"Z","2")` | Corrige fechas con carácter Z inválido |
 | `UnidadesLimpia` | `[Unidades] < 0 ? [Unidades] * -1 : [Unidades]` | Convierte unidades negativas a positivas |
 | `CostoLimpio` | `[CostoUnitario] < 0 ? [CostoUnitario] * -1 : [CostoUnitario]` | Convierte costos negativos a positivos |
-| `MontoCompra` | `([Unidades] < 0 ? [Unidades] * -1 : [Unidades]) * ([CostoUnitario] < 0 ? [CostoUnitario] * -1 : [CostoUnitario])` | Calcula monto total de la compra |
+| `MontoCompra` | `[UnidadesLimpia] * [CostoLimpio]` | Calcula monto total usando valores ya limpios |
 | `TiempoKey` | `(DT_I4)(YEAR((DT_DBDATE)[FechaLimpia]) * 10000 + MONTH((DT_DBDATE)[FechaLimpia]) * 100 + DAY((DT_DBDATE)[FechaLimpia]))` | Genera clave YYYYMMDD para DimTiempo |
 
 ### Lookups — FactCompras
@@ -173,7 +175,7 @@ El componente **Ordenar** tiene habilitada la opción "Quitar filas con valores 
 | `FechaLimpia` | `REPLACE([Fecha],"Z","2")` | Corrige fechas con carácter Z inválido |
 | `UnidadesLimpia` | `[Unidades] < 0 ? [Unidades] * -1 : [Unidades]` | Convierte unidades negativas a positivas |
 | `PrecioLimpio` | `[PrecioUnitario] < 0 ? [PrecioUnitario] * -1 : [PrecioUnitario]` | Convierte precios negativos a positivos |
-| `MontoVenta` | `([Unidades] < 0 ? [Unidades] * -1 : [Unidades]) * ([PrecioUnitario] < 0 ? [PrecioUnitario] * -1 : [PrecioUnitario])` | Calcula monto total de la venta |
+| `MontoVenta` | `[UnidadesLimpia] * [PrecioLimpio]` | Calcula monto total usando valores ya limpios |
 | `TiempoKey` | `(DT_I4)(YEAR((DT_DBDATE)[FechaLimpia]) * 10000 + MONTH((DT_DBDATE)[FechaLimpia]) * 100 + DAY((DT_DBDATE)[FechaLimpia]))` | Genera clave YYYYMMDD para DimTiempo |
 
 ### Lookups — FactVentas
@@ -249,11 +251,15 @@ Analiza el volumen total de ventas por cada producto, permitiendo identificar cu
 
 ![Consulta 1](./img/consulta1.png)
 
+**Interpretación:** Los 6 productos manejados por SG-Food presentan volúmenes de venta similares entre sí. Vino Gato Blanco lidera con 44,636 unidades vendidas, seguido por Queso Camembert con 43,509 unidades y Gaseosa Postobon Uva con 42,552 unidades. Cerveza Hofbrau Munchen presenta el menor volumen con 39,457 unidades. La distribución relativamente uniforme indica que ningún producto domina la demanda de forma excesiva, lo que sugiere un portafolio equilibrado.
+
 ### Consulta 2 — Unidades compradas por producto y trimestre por año
 
 Muestra el comportamiento de las compras por producto desglosado por trimestre y año, permitiendo identificar estacionalidad en el abastecimiento.
 
 ![Consulta 2](./img/consulta2.png)
+
+**Interpretación:** Las compras se distribuyen de forma relativamente uniforme a lo largo de los trimestres en todos los años analizados (2018–2024). No se observa una estacionalidad marcada, lo que indica que el abastecimiento de SG-Food sigue un patrón continuo sin picos estacionales significativos. Esto permite una planificación de inventario más predecible.
 
 ### Consulta 3 — Marcas de productos y sus unidades compradas
 
@@ -261,17 +267,23 @@ Analiza el volumen de compras agrupado por marca, permitiendo identificar qué m
 
 ![Consulta 3](./img/consulta3.png)
 
+**Interpretación:** SINFONIA lidera las compras con 75,436 unidades, seguida de ZORBA con 74,760 unidades. POSTOBON y MONTICELLO se ubican en posiciones intermedias con 69,716 y 68,979 unidades respectivamente. CREM HELADO presenta el menor volumen con 60,793 unidades. La diferencia entre la marca con mayor y menor volumen es de aproximadamente 15,000 unidades, indicando una dependencia moderada de las marcas líderes.
+
 ### Consulta 4 — Ventas del vendedor por mes
 
 Muestra el desempeño mensual de cada vendedor en términos de unidades vendidas, permitiendo identificar tendencias de rendimiento individual.
 
 ![Consulta 4](./img/consulta4.png)
 
+**Interpretación:** Los 10 vendedores presentan variaciones mensuales en su desempeño. Se identifican meses con mayor actividad comercial donde varios vendedores alcanzan sus picos de ventas simultáneamente, lo que podría indicar campañas o temporadas de mayor demanda. Esta vista permite al equipo comercial identificar vendedores con desempeño consistente versus aquellos con alta variabilidad mensual.
+
 ### Consulta 5 — Ventas por sucursal, departamento y año
 
 Analiza el volumen de ventas por sucursal desglosado por departamento y año, permitiendo identificar qué zonas geográficas generan mayor actividad comercial.
 
 ![Consulta 5](./img/consulta5.png)
+
+**Interpretación:** La Sucursal Oeste ubicada en la región Occidente lidera las ventas con 68,346 unidades, seguida por Sucursal Norte en la región Metropolitana con 64,303 unidades. Sucursal Sur en Suroccidente registra 61,562 unidades y Sucursal Este en Nororiente presenta el menor volumen con 59,956 unidades. La distribución geográfica muestra que todas las sucursales tienen rendimientos similares con una diferencia máxima de aproximadamente 8,000 unidades entre la de mayor y menor desempeño.
 
 ## 6.3 Scripts de Validación en SQL Server
 
