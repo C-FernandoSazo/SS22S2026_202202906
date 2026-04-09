@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\Cubo_SGFood.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:Cubo_SGFood.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DW SG Food.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:DW SG Food.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\Cubo_SGFood.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|solutionrelative:Cubo_SGFood.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E1ADC32-8BEF-18F1-0604-FACDFEC6EE71}|SSAS.dwproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DimVendedor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Cubo_SGFood.cube [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\Cubo_SGFood.cube",
               "RelativeDocumentMoniker": "Cubo_SGFood.cube",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DW SG Food.dsv [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\SSAS\\DW SG Food.dsv",
               "RelativeDocumentMoniker": "DW SG Food.dsv",
