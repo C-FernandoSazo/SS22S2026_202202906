@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{6BAD0A32-D882-4C66-B92B-B9747453EB4A}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{AD6226D7-3441-4A50-874F-8A9D819462F1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3452,21 +3452,66 @@ where [refTable].[TiempoKey] = ?</property>
                       errorRowDisposition="FailComponent"
                       lineageId="Package\Cargar FactVentas\Columna derivada.Outputs[Salida de columna derivada].Columns[MontoVenta]"
                       name="MontoVenta"
-                      precision="14"
-                      scale="2"
+                      precision="38"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Expresión de columna derivada"
-                          name="Expression">(DT_NUMERIC,14,2)(#{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]} * #{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[PrecioUnitario]})</property>
+                          name="Expression">(#{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]} &lt; 0 ? #{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]} * -1 : #{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]}) * (#{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[PrecioUnitario]} &lt; 0 ? #{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[PrecioUnitario]} * -1 : #{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[PrecioUnitario]})</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Expresión descriptiva de columna derivada"
                           expressionType="Notify"
-                          name="FriendlyExpression">(DT_NUMERIC,14,2)(Unidades * PrecioUnitario)</property>
+                          name="FriendlyExpression">(Unidades &lt; 0 ? Unidades * -1 : Unidades) * (PrecioUnitario &lt; 0 ? PrecioUnitario * -1 : PrecioUnitario)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar FactVentas\Columna derivada.Outputs[Salida de columna derivada].Columns[UnidadesLimpia]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar FactVentas\Columna derivada.Outputs[Salida de columna derivada].Columns[UnidadesLimpia]"
+                      name="UnidadesLimpia"
+                      precision="38"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">#{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]} &lt; 0 ? #{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]} * -1 : #{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">Unidades &lt; 0 ? Unidades * -1 : Unidades</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar FactVentas\Columna derivada.Outputs[Salida de columna derivada].Columns[PrecioLimpio]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar FactVentas\Columna derivada.Outputs[Salida de columna derivada].Columns[PrecioLimpio]"
+                      name="PrecioLimpio"
+                      precision="38"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">#{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[PrecioUnitario]} &lt; 0 ? #{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[PrecioUnitario]} * -1 : #{Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[PrecioUnitario]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">PrecioUnitario &lt; 0 ? PrecioUnitario * -1 : PrecioUnitario</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -3651,17 +3696,10 @@ where [refTable].[TiempoKey] = ?</property>
                   name="Entrada de destino de OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Cargar FactVentas\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[PrecioUnitario]"
-                      cachedDataType="decimal"
-                      cachedName="PrecioUnitario"
-                      externalMetadataColumnId="Package\Cargar FactVentas\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[PrecioUnitario]"
-                      lineageId="Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[PrecioUnitario]" />
-                    <inputColumn
                       refId="Package\Cargar FactVentas\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[MontoVenta]"
                       cachedDataType="numeric"
                       cachedName="MontoVenta"
-                      cachedPrecision="14"
-                      cachedScale="2"
+                      cachedPrecision="38"
                       externalMetadataColumnId="Package\Cargar FactVentas\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[MontoVenta]"
                       lineageId="Package\Cargar FactVentas\Columna derivada.Outputs[Salida de columna derivada].Columns[MontoVenta]" />
                     <inputColumn
@@ -3695,11 +3733,19 @@ where [refTable].[TiempoKey] = ?</property>
                       externalMetadataColumnId="Package\Cargar FactVentas\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[TiempoKey]"
                       lineageId="Package\Cargar FactVentas\Columna derivada 1.Outputs[Salida de columna derivada].Columns[TiempoKey]" />
                     <inputColumn
-                      refId="Package\Cargar FactVentas\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Unidades]"
-                      cachedDataType="decimal"
-                      cachedName="Unidades"
+                      refId="Package\Cargar FactVentas\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[UnidadesLimpia]"
+                      cachedDataType="numeric"
+                      cachedName="UnidadesLimpia"
+                      cachedPrecision="38"
                       externalMetadataColumnId="Package\Cargar FactVentas\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[UnidadesVendidas]"
-                      lineageId="Package\Cargar FactVentas\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]" />
+                      lineageId="Package\Cargar FactVentas\Columna derivada.Outputs[Salida de columna derivada].Columns[UnidadesLimpia]" />
+                    <inputColumn
+                      refId="Package\Cargar FactVentas\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[PrecioLimpio]"
+                      cachedDataType="numeric"
+                      cachedName="PrecioLimpio"
+                      cachedPrecision="38"
+                      externalMetadataColumnId="Package\Cargar FactVentas\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[PrecioUnitario]"
+                      lineageId="Package\Cargar FactVentas\Columna derivada.Outputs[Salida de columna derivada].Columns[PrecioLimpio]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4560,9 +4606,37 @@ where [refTable].[TiempoKey] = ?</property>
           Id="Package\Cargar FactVentas\Origen de archivo plano"
           TopLeft="207,25" />
         <NodeLayout
+          Size="168,42"
+          Id="Package\Cargar FactVentas\Destino de OLE DB"
+          TopLeft="230,723" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\Cargar FactVentas\Búsqueda 1"
+          TopLeft="230,285" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\Cargar FactVentas\Búsqueda 3"
+          TopLeft="234,456" />
+        <NodeLayout
           Size="164,42"
           Id="Package\Cargar FactVentas\Columna derivada"
           TopLeft="216,111" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Cargar FactVentas\Columna derivada 1"
+          TopLeft="220,542" />
+        <NodeLayout
+          Size="125,42"
+          Id="Package\Cargar FactVentas\Búsqueda"
+          TopLeft="229,196" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\Cargar FactVentas\Búsqueda 2"
+          TopLeft="231,373" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\Cargar FactVentas\Búsqueda 4"
+          TopLeft="238,626" />
         <EdgeLayout
           Id="Package\Cargar FactVentas.Paths[Salida de origen de archivo plano]"
           TopLeft="300.25,67">
@@ -4585,174 +4659,6 @@ where [refTable].[TiempoKey] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="125,42"
-          Id="Package\Cargar FactVentas\Búsqueda"
-          TopLeft="229,196" />
-        <EdgeLayout
-          Id="Package\Cargar FactVentas.Paths[Salida de columna derivada]"
-          TopLeft="294.75,153">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,43"
-              Start="0,0"
-              End="0,35.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,35.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Cargar FactVentas\Búsqueda 1"
-          TopLeft="230,285" />
-        <EdgeLayout
-          Id="Package\Cargar FactVentas.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="294.25,238">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,47"
-              Start="0,0"
-              End="0,39.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,39.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,13.65234375,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Cargar FactVentas\Búsqueda 2"
-          TopLeft="231,373" />
-        <EdgeLayout
-          Id="Package\Cargar FactVentas.Paths[Salida de entradas coincidentes de búsqueda1]"
-          TopLeft="297.5,327">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46"
-              Start="0,0"
-              End="0,38.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,13.15234375,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Cargar FactVentas\Búsqueda 3"
-          TopLeft="234,456" />
-        <EdgeLayout
-          Id="Package\Cargar FactVentas.Paths[Salida de entradas coincidentes de búsqueda2]"
-          TopLeft="299.5,415">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,41"
-              Start="0,0"
-              End="0,33.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,10.65234375,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Cargar FactVentas\Columna derivada 1"
-          TopLeft="220,542" />
-        <EdgeLayout
-          Id="Package\Cargar FactVentas.Paths[Salida de entradas coincidentes de búsqueda3]"
-          TopLeft="303.75,498">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,44"
-              Start="0,0"
-              End="0,36.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,12.15234375,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Cargar FactVentas\Búsqueda 4"
-          TopLeft="238,626" />
-        <EdgeLayout
-          Id="Package\Cargar FactVentas.Paths[Salida de columna derivada1]"
-          TopLeft="305.75,584">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,42"
-              Start="0,0"
-              End="0,34.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Cargar FactVentas\Destino de OLE DB"
-          TopLeft="230,723" />
         <EdgeLayout
           Id="Package\Cargar FactVentas.Paths[Salida de entradas coincidentes de búsqueda4]"
           TopLeft="305,668">
@@ -4787,6 +4693,146 @@ where [refTable].[TiempoKey] = ?</property>
             <mssgm:EdgeLabel
               BoundingBox="-95.3190234375,32.5,199.638046875,12.1953125"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactVentas.Paths[Salida de entradas coincidentes de búsqueda3]"
+          TopLeft="303.75,498">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44"
+              Start="0,0"
+              End="0,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.8190234375,12.15234375,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactVentas.Paths[Salida de entradas coincidentes de búsqueda2]"
+          TopLeft="299.5,415">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,41"
+              Start="0,0"
+              End="0,33.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.8190234375,10.65234375,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactVentas.Paths[Salida de entradas coincidentes de búsqueda1]"
+          TopLeft="297.5,327">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46"
+              Start="0,0"
+              End="0,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.8190234375,13.15234375,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactVentas.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="294.25,238">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,47"
+              Start="0,0"
+              End="0,39.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.8190234375,13.65234375,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactVentas.Paths[Salida de columna derivada1]"
+          TopLeft="305.75,584">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42"
+              Start="0,0"
+              End="0,34.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar FactVentas.Paths[Salida de columna derivada]"
+          TopLeft="294.75,153">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43"
+              Start="0,0"
+              End="0,35.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

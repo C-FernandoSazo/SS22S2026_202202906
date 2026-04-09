@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\Integration Services Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42D6E34D-8A3A-4798-A40F-775CC8045384}|Integration Services Project1.dtproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\Integration Services Project1\\ETL_Compras.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
-      "RelativeMoniker": "D:0:0:{42D6E34D-8A3A-4798-A40F-775CC8045384}|Integration Services Project1.dtproj|solutionrelative:ETL_Compras.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42D6E34D-8A3A-4798-A40F-775CC8045384}|Integration Services Project1.dtproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\Integration Services Project1\\ETL_Ventas.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
       "RelativeMoniker": "D:0:0:{42D6E34D-8A3A-4798-A40F-775CC8045384}|Integration Services Project1.dtproj|solutionrelative:ETL_Ventas.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D6E34D-8A3A-4798-A40F-775CC8045384}|Integration Services Project1.dtproj|C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\Integration Services Project1\\ETL_Compras.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{42D6E34D-8A3A-4798-A40F-775CC8045384}|Integration Services Project1.dtproj|solutionrelative:ETL_Compras.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,19 +26,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ETL_Compras.dtsx [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\Integration Services Project1\\ETL_Compras.dtsx",
               "RelativeDocumentMoniker": "ETL_Compras.dtsx",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\Integration Services Project1\\ETL_Compras.dtsx [Dise\u00F1o]",
               "RelativeToolTip": "ETL_Compras.dtsx [Dise\u00F1o]",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-04-06T23:29:37.776Z",
+              "WhenOpened": "2026-04-09T05:06:49.773Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ETL_Ventas.dtsx [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SS22S2026_202202906\\Proyecto1\\Integration Services Project1\\ETL_Ventas.dtsx",
               "RelativeDocumentMoniker": "ETL_Ventas.dtsx",

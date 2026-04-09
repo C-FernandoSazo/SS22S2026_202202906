@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="ETL_Compras"
   DTS:PackageType="5"
-  DTS:VersionBuild="32"
-  DTS:VersionGUID="{74CBA19B-4DC0-4298-B2C9-95EE5465BD38}">
+  DTS:VersionBuild="34"
+  DTS:VersionGUID="{4747F5BD-6FF6-472E-A5AE-7E284BB5085C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3917,21 +3917,20 @@ where [refTable].[TiempoKey] = ?</property>
                       errorRowDisposition="FailComponent"
                       lineageId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[MontoCompra]"
                       name="MontoCompra"
-                      precision="14"
-                      scale="2"
+                      precision="38"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Expresión de columna derivada"
-                          name="Expression">(DT_NUMERIC,14,2)(#{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]} * #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CostoUnitario]})</property>
+                          name="Expression">(#{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]} &lt; 0 ? #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]} * -1 : #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]}) * (#{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CostoUnitario]} &lt; 0 ? #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CostoUnitario]} * -1 : #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CostoUnitario]})</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Expresión descriptiva de columna derivada"
                           expressionType="Notify"
-                          name="FriendlyExpression">(DT_NUMERIC,14,2)(Unidades * CostoUnitario)</property>
+                          name="FriendlyExpression">(Unidades &lt; 0 ? Unidades * -1 : Unidades) * (CostoUnitario &lt; 0 ? CostoUnitario * -1 : CostoUnitario)</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -3955,6 +3954,52 @@ where [refTable].[TiempoKey] = ?</property>
                           description="Expresión descriptiva de columna derivada"
                           expressionType="Notify"
                           name="FriendlyExpression">ISNULL(CodProveedor) || CodProveedor == "" ? "P0000" : CodProveedor</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[UnidadesLimpia]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[UnidadesLimpia]"
+                      name="UnidadesLimpia"
+                      precision="38"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">#{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]} &lt; 0 ? #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]} * -1 : #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">Unidades &lt; 0 ? Unidades * -1 : Unidades</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[CostoLimpio]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[CostoLimpio]"
+                      name="CostoLimpio"
+                      precision="38"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">#{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CostoUnitario]} &lt; 0 ? #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CostoUnitario]} * -1 : #{Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CostoUnitario]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">CostoUnitario &lt; 0 ? CostoUnitario * -1 : CostoUnitario</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -4139,17 +4184,10 @@ where [refTable].[TiempoKey] = ?</property>
                   name="Entrada de destino de OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[CostoUnitario]"
-                      cachedDataType="decimal"
-                      cachedName="CostoUnitario"
-                      externalMetadataColumnId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[CostoUnitario]"
-                      lineageId="Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[CostoUnitario]" />
-                    <inputColumn
                       refId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[MontoCompra]"
                       cachedDataType="numeric"
                       cachedName="MontoCompra"
-                      cachedPrecision="14"
-                      cachedScale="2"
+                      cachedPrecision="38"
                       externalMetadataColumnId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[MontoCompra]"
                       lineageId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[MontoCompra]" />
                     <inputColumn
@@ -4177,11 +4215,19 @@ where [refTable].[TiempoKey] = ?</property>
                       externalMetadataColumnId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[TiempoKey]"
                       lineageId="Package\Cargar FactCompras\Columna derivada 1.Outputs[Salida de columna derivada].Columns[TiempoKey]" />
                     <inputColumn
-                      refId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Unidades]"
-                      cachedDataType="decimal"
-                      cachedName="Unidades"
+                      refId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[UnidadesLimpia]"
+                      cachedDataType="numeric"
+                      cachedName="UnidadesLimpia"
+                      cachedPrecision="38"
                       externalMetadataColumnId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[UnidadesCompradas]"
-                      lineageId="Package\Cargar FactCompras\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Unidades]" />
+                      lineageId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[UnidadesLimpia]" />
+                    <inputColumn
+                      refId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[CostoLimpio]"
+                      cachedDataType="numeric"
+                      cachedName="CostoLimpio"
+                      cachedPrecision="38"
+                      externalMetadataColumnId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[CostoUnitario]"
+                      lineageId="Package\Cargar FactCompras\Columna derivada.Outputs[Salida de columna derivada].Columns[CostoLimpio]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4213,12 +4259,6 @@ where [refTable].[TiempoKey] = ?</property>
                       refId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[CostoUnitario]"
                       dataType="numeric"
                       name="CostoUnitario"
-                      precision="10"
-                      scale="2" />
-                    <externalMetadataColumn
-                      refId="Package\Cargar FactCompras\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[PrecioUnitario]"
-                      dataType="numeric"
-                      name="PrecioUnitario"
                       precision="10"
                       scale="2" />
                     <externalMetadataColumn
