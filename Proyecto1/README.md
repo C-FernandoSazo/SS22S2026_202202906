@@ -1,219 +1,398 @@
-# Modelo constelación 
+# Proyecto 1 — Implementación del flujo completo de Microsoft con SSIS y SSAS en SQL Server
 
-## Hechos
-
-* `FactCompras`
-* `FactVentas`
-
-## Dimensiones compartidas
-
-* `DimTiempo`
-* `DimProducto`
-* `DimSucursal`
-
-## Dimensiones específicas
-
-* `DimProveedor`
-* `DimCliente`
-* `DimVendedor`
+**Curso:** Seminario de Sistemas 2  
+**Universidad:** San Carlos de Guatemala — Facultad de Ingeniería  
+**Empresa:** SG-Food  
+**Instancia SQL Server:** `localhost\MSSQLSERVER01`
 
 ---
 
-# Tablas de hechos
+# 1. Descripción del Proyecto
 
-## FactCompras
+Este proyecto implementa una solución completa de Business Intelligence para la empresa SG-Food, dedicada a la distribución y comercialización de productos de diversas marcas y categorías. La solución abarca tres componentes principales:
 
-**Una fila representa una compra de un producto, en una fecha, a un proveedor, para una sucursal.**
+- Un proceso ETL desarrollado en **SQL Server Integration Services (SSIS)** que extrae, limpia y transforma datos desde archivos CSV hacia el Data Warehouse.
+- Un **Data Warehouse** implementado en SQL Server bajo un modelo constelación con tablas de hechos y dimensiones.
+- Un modelo analítico multidimensional construido en **SQL Server Analysis Services (SSAS)** con dimensiones, jerarquías y medidas para análisis de ventas e inventarios.
 
-## FactVentas
-
-**Una fila representa una venta de un producto, en una fecha, a un cliente, realizada por un vendedor, en una sucursal.**
-
----
-
-# Dimensiones
-
-## DimTiempo
-
-Se comparte entre compras y ventas.
-
-### Campos
-
-* `TiempoKey`
-* `FechaCompleta`
-* `Dia`
-* `Mes`
-* `NombreMes`
-* `Trimestre`
-* `Anio`
-
-### Jerarquía SSAS
-
-* **Año > Trimestre > Mes > Día**
+Las fuentes de datos son dos archivos CSV (`compras.csv` y `ventas.csv`) con información transaccional de compras a proveedores y ventas a clientes.
 
 ---
 
-## DimProducto
+# 2. Modelo Multidimensional
 
-Compartida entre compras y ventas.
+Se implementó un **modelo constelación (Constellation Schema)** como arquitectura del Data Warehouse por las siguientes razones:
 
-### Campos
+**Dos procesos de negocio diferenciados:** SG-Food maneja dos flujos independientes — compras a proveedores y ventas a clientes — cada uno con sus propias métricas y actores. Modelar ambos en una única tabla de hechos mezclaría conceptos distintos. El modelo constelación permite tener `FactCompras` y `FactVentas` como tablas de hechos independientes.
 
-* `ProductoKey`
-* `CodProducto`
-* `NombreProducto`
-* `MarcaProducto`
-* `Categoria`
+**Dimensiones compartidas:** Ambas tablas de hechos comparten `DimTiempo`, `DimProducto` y `DimSucursal`, garantizando consistencia en el análisis cruzado — por ejemplo, comparar el costo de adquisición de un producto contra su precio de venta por sucursal y período.
 
-### Jerarquía
+**Escalabilidad:** La separación de hechos facilita agregar nuevos procesos de negocio en el futuro sin modificar las tablas existentes.
 
-* **Categoría > Marca > Producto**
+![Diagrama Modelo Multidimensional](./img/diagramamodelo.png)
 
 ---
 
-## DimSucursal
+# 3. Decisiones de Diseño y Justificaciones
 
-Compartida entre compras y ventas.
+## 3.1 Tablas del Modelo
 
-### Campos
+### FactCompras
+Registra cada transacción de compra realizada a proveedores. Almacena las métricas del proceso de abastecimiento: unidades compradas, costo unitario y monto total calculado. Se relaciona con `DimTiempo`, `DimProveedor`, `DimProducto` y `DimSucursal`.
 
-* `SucursalKey`
-* `CodSucursal`
-* `NombreSucursal`
-* `Departamento`
-* `Region`
+### FactVentas
+Registra cada transacción de venta realizada a clientes. Almacena las métricas del proceso comercial: unidades vendidas, precio unitario y monto total calculado. Se relaciona con `DimTiempo`, `DimCliente`, `DimVendedor`, `DimProducto` y `DimSucursal`.
 
-### Jerarquía
+### Dimensiones
 
-* **Región > Departamento > Sucursal**
-
----
-
-## DimProveedor
-
-Solo para compras.
-
-### Campos
-
-* `ProveedorKey`
-* `CodProveedor`
-* `NombreProveedor`
+| Dimensión | Descripción | Compartida |
+|---|---|---|
+| `DimTiempo` | Descompone cada fecha en día, mes, trimestre y año para análisis temporales | Sí |
+| `DimProducto` | Identifica cada producto con su código, nombre, marca y categoría | Sí |
+| `DimSucursal` | Representa cada punto de operación con su nombre, región y departamento | Sí |
+| `DimProveedor` | Identifica al proveedor de cada transacción de compra | Solo compras |
+| `DimCliente` | Contiene el perfil del cliente con su código, nombre y tipo | Solo ventas |
+| `DimVendedor` | Identifica al vendedor responsable de cada transacción de venta | Solo ventas |
 
 ---
 
-## DimCliente
+# 4. SQL Server Integration Services (SSIS) — Proceso ETL
 
-Solo para ventas.
+## 4.1 Descripción General
 
-### Campos
+El proceso ETL fue implementado en SSIS dentro de Visual Studio 2022 usando dos paquetes independientes: `ETL_Compras.dtsx` y `ETL_Ventas.dtsx`. Cada paquete sigue la misma arquitectura: limpieza de datos, deduplicación, resolución de claves foráneas mediante Lookups y carga al Data Warehouse.
 
-* `ClienteKey`
-* `CodCliente`
-* `NombreCliente`
-* `TipoCliente`
+## 4.2 Fuentes de Datos
 
-### Jerarquía opcional
+| Archivo | Descripción | Delimitador | Encoding |
+|---|---|---|---|
+| `compras.csv` | Transacciones de compras a proveedores | `,` | UTF-8 (65001) |
+| `ventas.csv` | Transacciones de ventas a clientes | `,` | UTF-8 (65001) |
 
-* **TipoCliente > Cliente**
+## 4.3 Problemas de Calidad de Datos Identificados
+
+Durante el análisis de los archivos de entrada se identificaron los siguientes problemas de calidad de datos:
+
+| Problema | Archivo | Campo | Ejemplo | Solución aplicada |
+|---|---|---|---|---|
+| Fecha con carácter inválido Z | compras.csv | Fecha | `03/08/Z018` | `REPLACE([Fecha],"Z","2")` en Columna derivada |
+| Fecha con carácter inválido Z | ventas.csv | Fecha | `Z3/08/2018` | `REPLACE([Fecha],"Z","2")` en Columna derivada |
+| Fecha con carácter inválido Z | ventas.csv | Fecha | `06/1Z/2020` | `REPLACE([Fecha],"Z","2")` en Columna derivada |
+| Unidades negativas | compras.csv | Unidades | `-75` | `[Unidades] < 0 ? [Unidades] * -1 : [Unidades]` |
+| Unidades negativas | ventas.csv | Unidades | `-88` | `[Unidades] < 0 ? [Unidades] * -1 : [Unidades]` |
+| Costo unitario negativo | compras.csv | CostoUnitario | `-401.05` | `[CostoUnitario] < 0 ? [CostoUnitario] * -1 : [CostoUnitario]` |
+| Precio unitario negativo | ventas.csv | PrecioUnitario | `-285.09` | `[PrecioUnitario] < 0 ? [PrecioUnitario] * -1 : [PrecioUnitario]` |
+
+## 4.4 ETL_Compras.dtsx
+
+### Control Flow
+
+El paquete ejecuta las tareas en este orden para garantizar integridad referencial — las dimensiones se cargan antes que la tabla de hechos:
+
+```
+[Cargar DimProducto]
+        ↓
+[Cargar DimSucursal]
+        ↓
+[Cargar DimProveedor]
+        ↓
+[Cargar FactCompras]
+```
+
+### Data Flow — Dimensiones (DimProducto, DimSucursal, DimProveedor)
+
+Cada dimensión sigue el mismo patrón:
+
+```
+[Origen de archivo plano: compras.csv]
+        ↓
+[Ordenar] ← elimina duplicados por código único
+        ↓
+[Destino OLE DB] ← inserta en la dimensión correspondiente
+```
+
+El componente **Ordenar** tiene habilitada la opción "Quitar filas con valores de ordenación duplicados", garantizando que cada código (CodProducto, CodSucursal, CodProveedor) se inserte una sola vez.
+
+### Data Flow — FactCompras
+
+```
+[Origen de archivo plano: compras.csv]
+        ↓
+[Columna derivada] ← limpieza y cálculo de medidas
+        ↓
+[Lookup DimProducto] ← obtiene ProductoKey
+        ↓
+[Lookup DimSucursal] ← obtiene SucursalKey
+        ↓
+[Lookup DimProveedor] ← obtiene ProveedorKey
+        ↓
+[Columna derivada: TiempoKey] ← calcula YYYYMMDD
+        ↓
+[Lookup DimTiempo] ← obtiene TiempoKey
+        ↓
+[Destino OLE DB: FactCompras]
+```
+
+### Transformaciones en Columna Derivada — Compras
+
+| Columna creada | Expresión | Propósito |
+|---|---|---|
+| `FechaLimpia` | `REPLACE([Fecha],"Z","2")` | Corrige fechas con carácter Z inválido |
+| `UnidadesLimpia` | `[Unidades] < 0 ? [Unidades] * -1 : [Unidades]` | Convierte unidades negativas a positivas |
+| `CostoLimpio` | `[CostoUnitario] < 0 ? [CostoUnitario] * -1 : [CostoUnitario]` | Convierte costos negativos a positivos |
+| `MontoCompra` | `([Unidades] < 0 ? [Unidades] * -1 : [Unidades]) * ([CostoUnitario] < 0 ? [CostoUnitario] * -1 : [CostoUnitario])` | Calcula monto total de la compra |
+| `TiempoKey` | `(DT_I4)(YEAR((DT_DBDATE)[FechaLimpia]) * 10000 + MONTH((DT_DBDATE)[FechaLimpia]) * 100 + DAY((DT_DBDATE)[FechaLimpia]))` | Genera clave YYYYMMDD para DimTiempo |
+
+### Lookups — FactCompras
+
+| Lookup | Columna JOIN | Columna obtenida |
+|---|---|---|
+| Lookup DimProducto | `CodProducto` | `ProductoKey` |
+| Lookup DimSucursal | `CodSucursal` | `SucursalKey` |
+| Lookup DimProveedor | `CodProveedor` | `ProveedorKey` |
+| Lookup DimTiempo | `TiempoKey` | `TiempoKey` |
+
+## 4.5 ETL_Ventas.dtsx
+
+### Control Flow
+
+```
+[Cargar DimCliente]
+        ↓
+[Cargar DimVendedor]
+        ↓
+[Cargar FactVentas]
+```
+
+`DimProducto`, `DimSucursal` y `DimTiempo` ya fueron pobladas por `ETL_Compras.dtsx` y los Lookups de ventas las encuentran directamente.
+
+### Transformaciones en Columna Derivada — Ventas
+
+| Columna creada | Expresión | Propósito |
+|---|---|---|
+| `FechaLimpia` | `REPLACE([Fecha],"Z","2")` | Corrige fechas con carácter Z inválido |
+| `UnidadesLimpia` | `[Unidades] < 0 ? [Unidades] * -1 : [Unidades]` | Convierte unidades negativas a positivas |
+| `PrecioLimpio` | `[PrecioUnitario] < 0 ? [PrecioUnitario] * -1 : [PrecioUnitario]` | Convierte precios negativos a positivos |
+| `MontoVenta` | `([Unidades] < 0 ? [Unidades] * -1 : [Unidades]) * ([PrecioUnitario] < 0 ? [PrecioUnitario] * -1 : [PrecioUnitario])` | Calcula monto total de la venta |
+| `TiempoKey` | `(DT_I4)(YEAR((DT_DBDATE)[FechaLimpia]) * 10000 + MONTH((DT_DBDATE)[FechaLimpia]) * 100 + DAY((DT_DBDATE)[FechaLimpia]))` | Genera clave YYYYMMDD para DimTiempo |
+
+### Lookups — FactVentas
+
+| Lookup | Columna JOIN | Columna obtenida |
+|---|---|---|
+| Lookup DimProducto | `CodProducto` | `ProductoKey` |
+| Lookup DimSucursal | `CodSucursal` | `SucursalKey` |
+| Lookup DimCliente | `CodCliente` | `ClienteKey` |
+| Lookup DimVendedor | `CodVendedor` | `VendedorKey` |
+| Lookup DimTiempo | `TiempoKey` | `TiempoKey` |
 
 ---
 
-## DimVendedor
+# 5. SQL Server Analysis Services (SSAS) — Modelo Analítico
 
-Solo para ventas.
+## 5.1 Descripción General
 
-### Campos
+El modelo analítico fue implementado en SSAS en modalidad multidimensional, conectado al Data Warehouse `DW_SGFood` en la instancia `localhost\MSSQLSERVER01`. El cubo permite realizar consultas analíticas sobre los procesos de ventas y compras desde múltiples perspectivas dimensionales.
 
-* `VendedorKey`
-* `CodVendedor`
-* `NombreVendedor`
+## 5.2 Origen de Datos y Vista
 
----
+Se creó un origen de datos apuntando a la instancia `localhost\MSSQLSERVER01` usando autenticación de Windows. La vista del origen de datos incluye las 8 tablas del Data Warehouse con sus relaciones detectadas automáticamente.
 
-# Tablas de hechos finales
+## 5.3 Cubo — Cubo_SGFood
 
-## FactCompras
+El cubo fue creado con dos grupos de medidas correspondientes a las tablas de hechos:
 
-### Llaves foráneas
+| Tabla de Hechos | Medidas |
+|---|---|
+| FactCompras | UnidadesCompradas, CostoUnitario, MontoCompra |
+| FactVentas | UnidadesVendidas, PrecioUnitario, MontoVenta |
 
-* `TiempoKey`
-* `ProductoKey`
-* `SucursalKey`
-* `ProveedorKey`
+## 5.4 Dimensiones y Jerarquías
 
-### Medidas
+| Dimensión | Atributos | Jerarquía | Niveles |
+|---|---|---|---|
+| DimTiempo | Dia, Mes, NombreMes, Trimestre, Anio | Calendario | Anio > Trimestre > Mes > Dia |
+| DimProducto | CodProducto, MarcaProducto, Categoria | Catalogo | Categoria > MarcaProducto > Producto |
+| DimSucursal | CodSucursal, Departamento, Region | Geografia | Region > Departamento > Sucursal |
+| DimProveedor | CodProveedor, NombreProveedor | — | Sin jerarquía |
+| DimCliente | CodCliente, TipoCliente | Clientes | TipoCliente > Cliente |
+| DimVendedor | CodVendedor, NombreVendedor | — | Sin jerarquía |
 
-* `UnidadesCompradas`
-* `CostoUnitario`
-* `PrecioUnitario` ← **agregado para análisis de margen cruzado con FactVentas**
-* `MontoCompra`
+## 5.5 Implementación y Procesamiento
 
-### Fórmulas
+El proyecto fue implementado en la instancia `localhost\MSSQLSERVER01` de Analysis Services. Una vez implementado se ejecutó un proceso completo del cubo procesando correctamente 1,000 registros de compras y 1,000 registros de ventas distribuidos en 6 dimensiones.
 
-* `MontoCompra = UnidadesCompradas * CostoUnitario`
-* `Margen = PrecioUnitario - CostoUnitario` *(medida calculada en SSAS, no columna física)*
-
-### Estructura
-
-* `CompraKey`
-* `TiempoKey`
-* `ProductoKey`
-* `SucursalKey`
-* `ProveedorKey`
-* `UnidadesCompradas`
-* `CostoUnitario`
-* `PrecioUnitario`
-* `MontoCompra`
+![Diagrama Cubo SSAS](./img/diagramaCuboSSAS.png)
 
 ---
 
-## FactVentas
+# 6. Validación del Flujo Completo
 
-### Llaves foráneas
+## 6.1 Conteo de registros cargados
 
-* `TiempoKey`
-* `ProductoKey`
-* `SucursalKey`
-* `ClienteKey`
-* `VendedorKey`
+| Tabla | Filas cargadas |
+|---|---|
+| DimTiempo | 5,844 |
+| DimProducto | 6 |
+| DimSucursal | 4 |
+| DimProveedor | 101 |
+| DimCliente | 109 |
+| DimVendedor | 10 |
+| FactCompras | 1,000 |
+| FactVentas | 1,000 |
 
-### Medidas
+## 6.2 Consultas Analíticas en SSAS
 
-* `UnidadesVendidas`
-* `PrecioUnitario`
-* `MontoVenta`
+### Consulta 1 — Unidades vendidas por producto
 
-### Fórmula
+Analiza el volumen total de ventas por cada producto, permitiendo identificar cuáles tienen mayor demanda.
 
-* `MontoVenta = UnidadesVendidas * PrecioUnitario`
+![Consulta 1](./img/consulta1.png)
 
-### Estructura
+### Consulta 2 — Unidades compradas por producto y trimestre por año
 
-* `VentaKey`
-* `TiempoKey`
-* `ProductoKey`
-* `SucursalKey`
-* `ClienteKey`
-* `VendedorKey`
-* `UnidadesVendidas`
-* `PrecioUnitario`
-* `MontoVenta`
+Muestra el comportamiento de las compras por producto desglosado por trimestre y año, permitiendo identificar estacionalidad en el abastecimiento.
+
+![Consulta 2](./img/consulta2.png)
+
+### Consulta 3 — Marcas de productos y sus unidades compradas
+
+Analiza el volumen de compras agrupado por marca, permitiendo identificar qué marcas concentran mayor inversión en abastecimiento.
+
+![Consulta 3](./img/consulta3.png)
+
+### Consulta 4 — Ventas del vendedor por mes
+
+Muestra el desempeño mensual de cada vendedor en términos de unidades vendidas, permitiendo identificar tendencias de rendimiento individual.
+
+![Consulta 4](./img/consulta4.png)
+
+### Consulta 5 — Ventas por sucursal, departamento y año
+
+Analiza el volumen de ventas por sucursal desglosado por departamento y año, permitiendo identificar qué zonas geográficas generan mayor actividad comercial.
+
+![Consulta 5](./img/consulta5.png)
+
+## 6.3 Scripts de Validación en SQL Server
+
+```sql
+USE DW_SGFood;
+
+-- Conteo general
+SELECT 'DimTiempo'   AS Tabla, COUNT(*) AS Filas FROM dbo.DimTiempo
+UNION ALL SELECT 'DimProducto',  COUNT(*) FROM dbo.DimProducto
+UNION ALL SELECT 'DimSucursal',  COUNT(*) FROM dbo.DimSucursal
+UNION ALL SELECT 'DimProveedor', COUNT(*) FROM dbo.DimProveedor
+UNION ALL SELECT 'DimCliente',   COUNT(*) FROM dbo.DimCliente
+UNION ALL SELECT 'DimVendedor',  COUNT(*) FROM dbo.DimVendedor
+UNION ALL SELECT 'FactCompras',  COUNT(*) FROM dbo.FactCompras
+UNION ALL SELECT 'FactVentas',   COUNT(*) FROM dbo.FactVentas;
+
+-- Ventas por categoría de producto y año
+SELECT t.Anio, p.Categoria, SUM(v.MontoVenta) AS TotalVentas
+FROM dbo.FactVentas v
+JOIN dbo.DimTiempo t ON v.TiempoKey = t.TiempoKey
+JOIN dbo.DimProducto p ON v.ProductoKey = p.ProductoKey
+GROUP BY t.Anio, p.Categoria
+ORDER BY t.Anio, TotalVentas DESC;
+
+-- Compras por proveedor
+SELECT pr.NombreProveedor, SUM(c.MontoCompra) AS TotalCompras
+FROM dbo.FactCompras c
+JOIN dbo.DimProveedor pr ON c.ProveedorKey = pr.ProveedorKey
+GROUP BY pr.NombreProveedor
+ORDER BY TotalCompras DESC;
+
+-- Ventas por sucursal y región
+SELECT s.Region, s.NombreSucursal, SUM(v.MontoVenta) AS TotalVentas
+FROM dbo.FactVentas v
+JOIN dbo.DimSucursal s ON v.SucursalKey = s.SucursalKey
+GROUP BY s.Region, s.NombreSucursal
+ORDER BY s.Region, TotalVentas DESC;
+
+-- Ventas por año
+SELECT t.Anio, SUM(v.MontoVenta) AS TotalVentas
+FROM dbo.FactVentas v
+JOIN dbo.DimTiempo t ON v.TiempoKey = t.TiempoKey
+GROUP BY t.Anio ORDER BY t.Anio;
+
+-- Top 5 clientes
+SELECT TOP 5 c.NombreCliente, c.TipoCliente, SUM(v.MontoVenta) AS TotalComprado
+FROM dbo.FactVentas v
+JOIN dbo.DimCliente c ON v.ClienteKey = c.ClienteKey
+GROUP BY c.NombreCliente, c.TipoCliente
+ORDER BY TotalComprado DESC;
+
+-- Compras vs Ventas por producto
+SELECT p.NombreProducto,
+    SUM(c.UnidadesCompradas) AS UnidadesCompradas,
+    SUM(v.UnidadesVendidas)  AS UnidadesVendidas
+FROM dbo.DimProducto p
+LEFT JOIN dbo.FactCompras c ON p.ProductoKey = c.ProductoKey
+LEFT JOIN dbo.FactVentas  v ON p.ProductoKey = v.ProductoKey
+GROUP BY p.NombreProducto
+ORDER BY p.NombreProducto;
+```
 
 ---
 
-## Núcleo compartido
+# 7. Manual de Implementación
 
-* `DimTiempo`
-* `DimProducto`
-* `DimSucursal`
+## Requisitos previos
 
-## Proceso 1: Compras
+- Microsoft SQL Server 2022 (instancia `localhost\MSSQLSERVER01`)
+- SQL Server Analysis Services instalado y corriendo
+- SQL Server Management Studio (SSMS)
+- Visual Studio 2022 con extensiones SSIS y SSAS (SQL Server Data Tools)
 
-* `FactCompras`
-* `DimProveedor`
+## Pasos de ejecución
 
-## Proceso 2: Ventas
+**1. Crear el Data Warehouse**
 
-* `FactVentas`
-* `DimCliente`
-* `DimVendedor`
+Abrir SSMS, conectarse a `localhost\MSSQLSERVER01` y ejecutar el script `01_DDL_DW_SGFood.sql`. Este script crea la base de datos `DW_SGFood`, todas las tablas y pobla `DimTiempo` con el rango de fechas 2015–2030.
+
+**2. Ejecutar el ETL de Compras**
+
+Abrir `ETL_Compras.dtsx` en Visual Studio y ejecutar con F5. Las tareas corren en orden: `DimProducto` → `DimSucursal` → `DimProveedor` → `FactCompras`.
+
+**3. Ejecutar el ETL de Ventas**
+
+Abrir `ETL_Ventas.dtsx` en Visual Studio y ejecutar con F5. Las tareas corren en orden: `DimCliente` → `DimVendedor` → `FactVentas`.
+
+**4. Implementar y procesar el modelo SSAS**
+
+Abrir el proyecto `SSAS_SGFood` en Visual Studio, clic derecho sobre el proyecto → **Implementar**. Esto despliega el cubo en Analysis Services y lo procesa automáticamente.
+
+**5. Validar resultados**
+
+Ejecutar el script `02_Validacion.sql` en SSMS para verificar conteos e integridad del modelo.
+
+## Nota sobre re-ejecución del ETL
+
+Si se necesita volver a ejecutar los paquetes SSIS, primero limpiar las tablas con el siguiente script para evitar errores de clave duplicada:
+
+```sql
+USE DW_SGFood;
+DELETE FROM dbo.FactCompras;
+DELETE FROM dbo.FactVentas;
+DELETE FROM dbo.DimProveedor;
+DELETE FROM dbo.DimCliente;
+DELETE FROM dbo.DimVendedor;
+DELETE FROM dbo.DimProducto;
+DELETE FROM dbo.DimSucursal;
+DBCC CHECKIDENT('DimProducto', RESEED, 0);
+DBCC CHECKIDENT('DimSucursal', RESEED, 0);
+DBCC CHECKIDENT('DimProveedor', RESEED, 0);
+DBCC CHECKIDENT('DimCliente', RESEED, 0);
+DBCC CHECKIDENT('DimVendedor', RESEED, 0);
+```
+
+---
+
+# 8. Conclusión
+
+El desarrollo de este proyecto permitió implementar de forma exitosa una solución completa de Business Intelligence para la empresa SG-Food, abarcando desde la extracción y transformación de datos en SSIS hasta la construcción de un modelo analítico multidimensional en SSAS, pasando por un Data Warehouse estructurado bajo un esquema constelación en SQL Server.
+
+A lo largo del proceso se identificaron y resolvieron problemas de calidad de datos incluyendo fechas con caracteres inválidos, unidades negativas y precios negativos, aplicando transformaciones en el flujo ETL mediante expresiones en componentes Columna Derivada.
+
+El resultado es una arquitectura robusta que integra 2,000 registros transaccionales de compras y ventas distribuidos en un modelo dimensional con 6 dimensiones y 2 tablas de hechos, procesados correctamente en un cubo SSAS que permite consultas analíticas ágiles y estructuradas para la toma de decisiones en SG-Food.
